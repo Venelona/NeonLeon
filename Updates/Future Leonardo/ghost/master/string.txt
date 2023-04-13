@@ -26,7 +26,7 @@ On_username
 
 On_homeurl
 {
-	"https://github.com/Venelona/NeonLeon/tree/main/Updates/Future%20Leonardo"
+	"https://raw.githubusercontent.com/Venelona/NeonLeon/main/Updates/Future%20Leonardo/"
 }
 
 
