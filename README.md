@@ -1,2 +1,2 @@
 # NeonLeon
-ld man leo ghost
+old man leo ghost
