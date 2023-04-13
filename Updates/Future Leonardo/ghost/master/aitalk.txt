@@ -147,7 +147,7 @@ RandomTalk : nonoverlap
 		//500 PETS!!!
 		if petadd >= 500 && bigmood > 0 && raphchain == 0 && donchain == 0 && splinterchain == 0
 		{
-			"\0\s[0]I can't believe you pet me, \w3like, \w3a five hundred times. \w8\w4Really. \w8\w4\s[19]Damn. \w8\w4\s[57]Thank you, \w3I guess? \w8\w4\s[19]Come here, \w3I'll pet your head, \w3too. \w8\w4\s[23]Good job.\e"
+			"\0\s[0]I can't believe you pet me, \w3like, \w3five hundred times. \w8\w4Really. \w8\w4\s[19]Damn. \w8\w4\s[57]Thank you, \w3I guess? \w8\w4\s[19]Come here, \w3I'll pet your head, \w3too. \w8\w4\s[23]Good job.\e"
 		}
 	
 	
@@ -249,7 +249,7 @@ RandomTalk : nonoverlap
 	
 		"\0\s[2]\i[5]*He sighs. \w8You can see how he aged\w3.\w3.\w3.\s[2]\e"
 	
-		"\0\s[2]\i[5]*He's humming a catchy tune. \w8Sounds like show's opening theme\w3.\w3.\w3.\s[2]\e"
+		"\0\s[2]\i[5]*He's humming a catchy tune. \w8Sounds like the show's opening theme\w3.\w3.\w3.\s[2]\e"
 	
 		"\0\s[2]I hope I won't be late for my mission\w3.\w3.\w3.\e"
 	
@@ -531,7 +531,7 @@ RandomTalk : nonoverlap
 		//500 PETS!!!
 		if petadd >= 500 && bigmood > 0 && raphchain == 0 && donchain == 0 && splinterchain == 0
 		{
-			"\0\s[0]I can't believe you pet me, \w3like, \w3a five hundred times. \w8\w4Really. \w8\w4\s[19]Damn. \w8\w4\s[57]Thank you, \w3I guess? \w8\w4\s[19]Come here, \w3I'll pet your head, \w3too. \w8\w4\s[23]Good job.\e"
+			"\0\s[0]I can't believe you pet me, \w3like, \w3five hundred times. \w8\w4Really. \w8\w4\s[19]Damn. \w8\w4\s[57]Thank you, \w3I guess? \w8\w4\s[19]Come here, \w3I'll pet your head, \w3too. \w8\w4\s[23]Good job.\e"
 		}
 		
 		"\0\s[2]\i[5]*He's humming a tune. \w6\w6\s[2]\f[sub,true]\n\n[half]...dabudi dabudai\w3.\w3.\w3.\f[sub,false]"
@@ -721,7 +721,7 @@ RandomTalk : nonoverlap
 	
 		"\0\s[0]Remember to take breaks! \n\n[half]\i[5]\w8*You ask him if \s[26]\i[5]he takes breaks. \0\s[26]\n\n[half]\w8We're not talking about me! \w8\w6\0\s[0]Besides, \w6\s[19]technically, \w6\s[20]I'm on a break right now.\e"
 		
-		"\0\s[100]You can never lower your defence\w5.\w5.\w5. \w8\s[20]But this place is pretty chill.\e"
+		"\0\s[100]You can never lower your defences\w5.\w5.\w5. \w8\s[20]But this place is pretty chill.\e"
 		
 		"\0\s[0]You don't invite any other turtles here when I'm gone,\n\w5do you?\e"
 	
@@ -1087,7 +1087,7 @@ raphreveal4
 {{CHAIN
 	bigmood = -800
 	//"\0\s[87]*Raph's like super dead idk what you expect me to say amigo you think i write good\e"
-	"\![enter,passivemode]\0\s[87]It was just\w3.\w3.\w3. a scouting mission. \w8\w8\i[6]Get in, \w5scope the place out, \w5get out, \w7nothing big. \w8\w8We did so many of these over the years. \w8\w8I wanted to get it over with. \w8\w8We had bigger things to do. \x\s[87]B\w1u\w1t\w4.\w4.\w4. \w8\w4it was an ambush. \w8\w8I walked right into it, \w6and Raph had to bail me out. \w8.\w8.\w8.\w8.\w8.\w8It was going well at first. \w8\w8\i[6]We were winning, \w6we were kicking their butts! \w8\w8And then\w4.\w4.\w4. \w8the building we were in fell.\x \s[87]I- \w4my arm got stuck. \w8\w8I couldn't get it out. \w8\w8Raph was fighting them back, \w3and I wanted to get out, \w3and I told him to get me out, \w3and he- \w5I-\w8\w8\w8\w8\w8\w8\w8\s[87]\i[7]\w8\i[8]\w8\n\w1I\w1 \w1w\w1a\w1t\w1c\w1h\w1e\w1d\w1 \w1t\w1h\w1o\w1s\w1e\w1 \w1t\w1h\w1i\w1n\w1g\w1s\w1 \w1k\w1i\w1l\w1l\w1 \w1h\w1i\w1m\w1. \n\w8\w8\w8\w8\w8\f[sub,true]If only I\w2.\w2.\w2.\w2.\w2.\w2.\w2.\w2. If I didn't distract him, \w2if I wasn't so wreckless, \w2if I didn't screw up, \w2If I've done it sooner,\w2 Raph\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5.\f[sub,false]\w8\w8\w8\w8\w8\w8\w8\n\n[half]I cut off my arm, \w4finished off the rest of them,\i[6]\w6but Raph\w6.\w6.\w6. \w8\w8\w8It was too late.\x\w8\w8\w8\w8\w8\s[88]\i[8]\w2H\w2e\w2h\w4.\w4.\w4. \w8\w8it's been so long, \w4and I cannot believe the big guy's gone. \w8\w8\s[88]\i[7]He did what he always done\w5.\w5.\w5. \w8\w4he protected his family.\n\n"
+	"\![enter,passivemode]\0\s[87]It was just\w3.\w3.\w3. a scouting mission. \w8\w8\i[6]Get in, \w5scope the place out, \w5get out, \w7nothing big. \w8\w8We did so many of these over the years. \w8\w8I wanted to get it over with. \w8\w8We had bigger things to do. \x\s[87]B\w1u\w1t\w4.\w4.\w4. \w8\w4it was an ambush. \w8\w8I walked right into it, \w6and Raph had to bail me out. \w8.\w8.\w8.\w8.\w8.\w8It was going well at first. \w8\w8\i[6]We were winning, \w6we were kicking their butts! \w8\w8And then\w4.\w4.\w4. \w8the building we were in fell.\x\s[87]I- \w4my arm got stuck. \w8\w8I couldn't get it out. \w8\w8Raph was fighting them back, \w3and I wanted to get out, \w3and I told him to get me out, \w3and he- \w5I-\w8\w8\w8\w8\w8\w8\w8\s[87]\i[7]\w8\i[8]\w8\n\w1I\w1 \w1w\w1a\w1t\w1c\w1h\w1e\w1d\w1 \w1t\w1h\w1o\w1s\w1e\w1 \w1t\w1h\w1i\w1n\w1g\w1s\w1 \w1k\w1i\w1l\w1l\w1 \w1h\w1i\w1m\w1. \n\w8\w8\w8\w8\w8\f[sub,true]If only I\w2.\w2.\w2.\w2.\w2.\w2.\w2.\w2. If I didn't distract him, \w2if I wasn't so wreckless, \w2if I didn't screw up, \w2If I'd done it sooner,\w2 Raph\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5.\f[sub,false]\w8\w8\w8\w8\w8\w8\w8\n\n[half]I cut off my arm, \w4finished off the rest of them, \i[6]\w6but Raph\w6.\w6.\w6. \w8\w8\w8It was too late.\x\w8\w8\w8\w8\w8\s[88]\i[8]\w2H\w2e\w2h\w4.\w4.\w4. \w8\w8it's been so long, \w4and I still cannot believe the big guy's gone. \w8\w8\s[88]\i[7]He did what he always done\w5.\w5.\w5. \w8\w4he protected his family.\n\n"
 	--
 	"\![*]\q[He was a hero,raphhero]\n/
 	\![*]\q[He would be so proud of you,raphproud]\n/
@@ -1170,7 +1170,7 @@ donreveal4
 {{CHAIN
 	bigmood = -800
 	//"\0\s[87]*Originally i had another don death in plan. sorry donnie\e"
-	"\![enter,passivemode]\0\s[87]Donnie did so much for the Resistance, \w4but still insisted that he wanted to do more. \w8\w8\s[88]He wanted to fight together, \w4side\w1-by\w1-side\w5.\w5.\w5. \w8\w8\s[87]But\w5.\w5.\w5. \w8\w8\w4\i[6]I didn't want him to. \w8\w8He was\w6 too fragile \w6and too valuable, \w5and I\w5.\w5.\w5. \w8\w8\s[87]I prohibited him from leaving the base. \w8\w4He was so angry with me, \w4but I had none of it\w4 - I told him he stays put. \w8\w8But Donnie\w5.\w5.\w5.\w5.\w5.\w5.\w5. \w8\w4\i[6]he always loved to bend the rules. \w8\w8\s[87]He'd sneak out when I was away, \w5sometimes alone, \w5and\w5.\w5.\w5. \w8\w4of course he got in trouble. \w8\w8But no matter how much I yelled at him, \w4he would only get more stubborn. \w8\w6\s[87]\i[7]A\w1n\w1d\w1 \w1\i[8]t\w1h\w1e\w1n\w6.\w6.\w6.\w6.\w6.\w6.\w6.\x\s[87]\i[7]That day, \w5I returned from my trip to the other Resistance camp, \w5to find the code Red sirens blaring. \w8\w8Me and Mikey came charging into Donnie's lab, \w5to ask him what's going on, \w5but\w5.\w5.\w5. \w8\w8\w8\w8\w8\i[6]he wasn't there.\n\w8\w8\w8He was the one who signaled code Red.\x\s[87]\i[8]He got captured. \w8\w8By krang. \w8\w8He managed to call us as they dragged him into one of their bases\w5.\w5.\w5. \w8\w8He was supposed to tell us his coordinates, \w5\i[6]b\w1u\w1t\w1 \w1h\w1e\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w8\w8\w8\nKrang can get into your head. \w8\w8Read your mind, \w5view your memories. \w8\w8And if they did that to Donnie, \w5the Resistance would be over. \w8\w8\s[87]\i[8]He knew everything, \w4was in charge of all our defences, \w4knew every secret\w6.\w6.\w6. \w8\w8And so, \w6he \w2just\w5.\w5.\w5.\w5. \w8\w5rattled \w2his \w2passwords \w2to \w2us\w5.\w5.\w5.\w5.\w5.\w5. \w8\w5told \w2where \w2Shelldon's \w2spare \w2parts \w2were\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5. \w5\i[6]and said goodbye. \w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8He took the entire base down with him.\x\s[87]\i[7]We\w5.\w5.\w5. \w8\w8we watched him sign off. \w8\w8Mikey wanted to go out there, \w5try to find him, \w5but I\w5.\w5.\w5. \w8\w8I knew it was too late. \n\w8\w8\i[6]Donnie\w5.\w5.\w5. \w8\w8didn't follow protocol and did things his way. \w8\w8Until the very end. \w8\w8Maybe if I didn't push him, \w6he\w6.\w6.\w6.\w6.\w6.\w6.\n\n"
+	"\![enter,passivemode]\0\s[87]Donnie did so much for the Resistance, \w4but still insisted that he wanted to do more. \w8\w8\s[88]He wanted to fight together, \w4side\w1-by\w1-side\w5.\w5.\w5. \w8\w8\s[87]But\w5.\w5.\w5. \w8\w8\w4\i[6]I didn't want him to. \w8\w8He was\w6 too fragile \w6and too valuable, \w5and I\w5.\w5.\w5. \w8\w8\s[87]I prohibited him from leaving the base. \w8\w4He was so angry with me, \w4but I had none of it\w4 - I told him he stays put. \w8\w8But Donnie\w5.\w5.\w5.\w5.\w5.\w5.\w5. \w8\w4\i[6]he always loved to bend the rules. \w8\w8\s[87]He'd sneak out when I was away, \w5sometimes alone, \w5and\w5.\w5.\w5. \w8\w4of course he got in trouble. \w8\w8But no matter how much I yelled at him, \w4he would only get more stubborn. \w8\w6\s[87]\i[7]A\w1n\w1d\w1 \w1\i[8]t\w1h\w1e\w1n\w6.\w6.\w6.\w6.\w6.\w6.\w6.\x\s[87]\i[7]That day I returned from my trip to the other Resistance camp, \w5only to find the code Red sirens blaring. \w8\w8Me and Mikey came charging into Donnie's lab, \w5to ask him what's going on, \w5but\w5.\w5.\w5. \w8\w8\w8\w8\w8\i[6]he wasn't there.\n\w8\w8\w8He was the one who signaled code Red.\x\s[87]\i[8]He got captured. \w8\w8By krang. \w8\w8He managed to call us as they dragged him into one of their bases\w5.\w5.\w5. \w8\w8He was supposed to tell us his coordinates, \w5\i[6]b\w1u\w1t\w1 \w1h\w1e\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w6.\w8\w8\w8\nKrang can get into your head. \w8\w8Read your mind, \w5view your memories. \w8\w8And if they did that to Donnie, \w5the Resistance would be over. \w8\w8\s[87]\i[8]He knew everything, \w4was in charge of all our defences, \w4knew every secret\w6.\w6.\w6. \w8\w8And so, \w6he \w2just\w5.\w5.\w5.\w5. \w8\w5rattled \w2his \w2passwords \w2to \w2us\w5.\w5.\w5.\w5.\w5.\w5. \w8\w5told \w2where \w2Shelldon's \w2spare \w2parts \w2were\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5.\w5. \w5\i[6]and said goodbye. \w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8\w8He took the entire base down with him.\x\s[87]\i[7]We\w5.\w5.\w5. \w8\w8we watched him sign off. \w8\w8Mikey wanted to go out there, \w5try to find him, \w5but I\w5.\w5.\w5. \w8\w8I knew it was too late. \n\w8\w8\i[6]Donnie\w5.\w5.\w5. \w8\w8didn't follow protocol and did things his way. \w8\w8Until the very end. \w8\w8Maybe if I didn't push him, \w6he\w6.\w6.\w6.\w6.\w6.\w6.\n\n"
 	--
 	"\![*]\q[He was a hero,donhero]\n/
 	\![*]\q[It's not your fault,donfault]\n/
@@ -1250,7 +1250,7 @@ splinterreveal4
 {{CHAIN
 	bigmood = -800
 	//i didnt come up with anything that interesting for splinter sorry rat dad
-	"\![enter,passivemode]\0\s[87]Pops died\w6.\w6.\w6. \w8\w8shortly after the invasion had began.\n\w8\w8We've been gathering allies at the lair, \w5after our failed attempts to take down the Technodrome by ourselves. \w8\w8But, \w4while we were regrouping and taking care of our wounds\w6.\w6.\w6. \w8\w8\i[6]Krang found us. \w8\w8\w8\w8\w8\w8We were in no condition to fight, \w4\s[87]but we tried. \w8\w8\s[87]We \w2really \w2tried. \w8\w8\i[6]Until dad told us to go. \w8\w8He\w8.\w8.\w8. \w8\w6bought us time to escape. \w8\w8\w8\w8\w8\w8I\w6.\w6.\w6. \w8\w8\s[87]I didn't want to leave him, \w6\i[6]but Mikey was \w2hurt, \w6badly, \w6and Donnie's battle shell was torn, \w6and we couldn't\w6.\w6.\w6. do anything.\s[89]\n\n"
+	"\![enter,passivemode]\0\s[87]Pops died\w6.\w6.\w6. \w8\w8shortly after the invasion began.\n\w8\w8We'd been gathering allies at the lair, \w5after our failed attempts to take down the Technodrome by ourselves. \w8\w8But, \w4while we were regrouping and taking care of our wounds\w6.\w6.\w6. \w8\w8\i[6]Krang found us. \w8\w8\w8\w8\w8\w8We were in no condition to fight, \w4\s[87]but we tried. \w8\w8\s[87]We \w2really \w2tried. \w8\w8\i[6]Until dad told us to go. \w8\w8He\w8.\w8.\w8. \w8\w6bought us time to escape. \w8\w8\w8\w8\w8\w8I\w6.\w6.\w6. \w8\w8\s[87]I didn't want to leave him, \w6\i[6]but Mikey was \w2hurt, \w6badly, \w6and Donnie's battle shell was torn, \w6and we couldn't\w6.\w6.\w6. do anything.\s[89]\n\n"
 	--
 	"\![*]\q[He really loved you,splinterlove]\n/
 	\![*]\q[He would be so proud of you,splinterproud]\n/

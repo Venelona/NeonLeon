@@ -1,7 +1,7 @@
 charset,windows-1251
 file,developer_options.txtabe155229c2a4c19f45f89820f641afesize=138date=2023-04-02T18:48:35
 file,ghost/master/Leoicon.icod6d2b8b4562b28b5356d35dbcbf0f370size=101634date=2023-02-15T19:42:30
-file,ghost/master/aitalk.txtcadf98fe06c40e61d08859b5f202aebcsize=88230date=2023-04-13T01:29:40
+file,ghost/master/aitalk.txt02753c2a4c0596382b757c673c031a5csize=88232date=2023-04-13T23:58:41
 file,ghost/master/anchor.txt8710fefeb31c223f44a2dc9a555d3b90size=4981date=2023-04-02T19:12:35
 file,ghost/master/aya5.dll5f91d5ac918774c5295e47c9cd8b18a5size=671744date=2018-12-02T22:24:32
 file,ghost/master/aya5.txt0a1b4b5541683dc1950b631e1605c578size=1282date=2023-04-02T19:12:53
