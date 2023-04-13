@@ -14,7 +14,7 @@ file,ghost/master/menu.txt8e1d891b9546ca4d65b4cdd209d9762bsize=219157date=202
 file,ghost/master/mouse.txt01f49ac820281a164f68165ee2ac3109size=23435date=2023-04-12T22:39:57
 file,ghost/master/nameteach.txt8e30f85fa46c776b06d333db6bc13198size=47976date=2023-04-11T18:47:17
 file,ghost/master/shiori3.txt8fb773e71fd3b9458fe8767aab140655size=35270date=2023-04-02T19:20:45
-file,ghost/master/string.txt229d9ddc34a0624b90c12564adaea555size=8179date=2023-04-02T20:07:46
+file,ghost/master/string.txt512aaef555fcff28c0306094f6e4bd33size=8200date=2023-04-13T22:37:28
 file,ghost/master/word.txt5346398f576a8e32794e67df0b3d1ff7size=9123date=2023-04-02T19:21:51
 file,install.txt48305b63efb4b4aca21633ac6c74761dsize=937date=2023-04-02T17:36:00
 file,readme.txtf02a635e2f1094dffb51fabf6f8194bfsize=2591date=2023-04-02T18:00:41
