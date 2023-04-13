@@ -1,4 +1,0 @@
-ghost/master/gomi.dll,noupdate
-ghost/master/mciaudior.dll,noupdate
-ghost/master/saori_cpuid.dll,noupdate
-ghost/master/yaya.dll,noupdate
