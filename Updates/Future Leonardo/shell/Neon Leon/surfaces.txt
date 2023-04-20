@@ -94,7 +94,16 @@ collision1,61,43,94,72,Face
 
 //If you REALLY can't figure out collisions and just can't get them to work, you can delete the two collision lines. This will make your ghost un-pettable though and much of what you defined in mouse.dic won't work. Their menus should still function though I think. But if you are desperate, this is an option.
 
+
+
+
 element0,overlay,s1.png,0,0
+
+
+//element0,overlay,surface1500.png,0,0
+
+
+
 //Here is the line of code that defines the base image we'll be using for the ghost. If you aren't just replacing my images and moving on, you'll want to replace the surface0.png part with whatever image file you're using as your base pose. But really, your base default pose should ALWAYS be surface0.png for your main character. There are very few situations where this line would need to be changed in any way. Likewise, I wouldn't change it from surface10 for your secondary character's default pose either.
 
 
@@ -162,6 +171,17 @@ element0,overlay,s1.png,0,0
 7pattern0,7017,10,replace
 7pattern0,7018,10,replace
 7pattern0,7016,10,replace
+
+//8interval,random,10
+//8pattern0,1501,10,overlay
+//8pattern2,1506,7,overlay
+//8pattern3,1507,3,overlay
+//8pattern1,1502,5,overlay
+//8pattern4,1503,15,overlay
+//8pattern5,1504,3,overlay
+//8pattern6,1508,15,overlay
+//8pattern6,1509,15,overlay
+//8pattern7,-1,15,overlay
 
 
 //These three intervals handle the talk frames. For those who are doing their own thing or adding talk frames to their other Surfaces, all you need to do is copy and paste the talk blocks (1interval to 4interval) into the Surface you want and replace 1101 and 1102 with the appropriate file numbers for your new talk frames. You can also add more frames to your talking animation if you want. Those just replacing my images don't have to worry about any of this, as long as your mouth frames look like mine.

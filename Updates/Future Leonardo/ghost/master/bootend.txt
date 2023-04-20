@@ -644,12 +644,12 @@ OnShellChanged
  	{
  		nowshell = "thiswouldbesomuchwork"
 		
- 		"\0\s[100]I am a turtle, I already have a shell.\e"
+ 		"\0\s[100]I am a turtle, \w3I already have a shell.\e"
 		//Replace this as well.
  	}
  	else //For any shell without a specific name, or if you don't want to bother with individual responses to a shell.
  	{
-		"\0\s[0]This dialogue is after we've changed my shell to %(reference[0]).\w8\0\s[0]How many shells do I have?\e"
+		"\0\s[0]This is %(reference[0]).\w8\w4\s[0]At your service.\e"
 	
 	//Note the %(reference[0]) here! This time that should store the name of whatever shell you're switching to. Replace this bit of dialogue as you need.
 	}

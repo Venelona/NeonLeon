@@ -291,7 +291,7 @@ MouseMoveSakura
 						"\0\s[20]Thank you, \w3thank you\w3.\w3.\w3.\e"
 						"\0\s[23]\i[5]*He seems happy.\e"
 						"\0\s[2]You don't have to do this, you know?\w4.\w4.\w4 \w8\w6\s[30]But thank you.\e"
-						"\0\s[0]\i[6]\i[5]I know, I know, I'm great.\e"
+						"\0\s[0]\i[6]I know, \w3I know, \w3I'm great.\e"
 						"\0\s[18]Pet? \w3Pot? \w3Pat? \w3Pot? \w3Pet? \w3Pat? \w3Pet? \w3Pat? \w3Pet? \w3Pot?\e"
 						"\0\s[0]I'd charge you for this if I had any use for money\w3.\w3.\w3. \n\w8\w4\s[23]Just kidding. \w8\w4\s[20]You can pet me for free, \w2any time.\e"
 						"\0\s[0]There's no stopping you, \w5huh? \w8\w4\s[19]Admirable.\e"
