@@ -541,86 +541,89 @@ RandomTalk : nonoverlap
 		"\0\s[0]I told Cass we'll train together today\w3.\w3.\w3. \w8\w4\s[35]I hope she \nwon't be too mad.\e"
 		
 		//"\0\s[0].\e"
-		if month >= 12 && raphchain == 0 && donchain == 0 && splinterchain == 0
+		if bigmood >= 0
 		{
-			//"\0\s[0]This is dialogue for December.\w8\1\s[18]A cold month?\e"
-		
-			"\0\s[0]December, huh? \w8\w4\i[6]No wonder I've been feeling sleepy lately...\e"
-		}
+			if month >= 12 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for December.\w8\1\s[18]A cold month?\e"
+			
+				"\0\s[0]December, huh? \w8\w4\i[6]No wonder I've been feeling sleepy lately...\e"
+			}
 	
-		//So you can use these to check for any number of situations. I think this feature is really neat, so I'm going to set up some quick default responses for the months, days, and time of day. If you don't want to do these, you can just delete this whole set of ifs down to the //--Double Envelopes section below.
-		//You can also nest ifs within these, so you could check if it was the 25 of April in the morning for example. You can also add or take away dialogue from these as you like, so if you want to have five dialogue options for April or one for January, you can totally do that.
+			//So you can use these to check for any number of situations. I think this feature is really neat, so I'm going to set up some quick default responses for the months, days, and time of day. If you don't want to do these, you can just delete this whole set of ifs down to the //--Double Envelopes section below.
+			//You can also nest ifs within these, so you could check if it was the 25 of April in the morning for example. You can also add or take away dialogue from these as you like, so if you want to have five dialogue options for April or one for January, you can totally do that.
 	
-		if month == 1 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for January.\w8\1\s[10]Yup.\e"
+			if month == 1 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for January.\w8\1\s[10]Yup.\e"
+			
+				"\0\s[0]Happy New Year. \w8\w2May no aliens attack your dimension.\e"
+			}
+			if month == 2 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for February.\w8\1\s[10]Yup.\e"
 		
-			"\0\s[0]Happy New Year. \w8\w2May no aliens attack your dimension.\e"
-		}
-		if month == 2 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for February.\w8\1\s[10]Yup.\e"
+				"\0\s[2]When will February end? \w8\w1\s[9]Winter is always the roughest.\e"
+			}
+			if month == 3 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for March.\w8\1\s[10]Yup.\e"
 		
-			"\0\s[2]When will February end? \w8\w1\s[9]Winter is always the roughest.\e"
-		}
-		if month == 3 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for March.\w8\1\s[10]Yup.\e"
+				"\0\s[0]It's March, \w3right? \w8Spring is\w3.\w3.\w3. \w6not very different from any other season back home.\e"
+			}
+			if month == 4 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for April.\w8\1\s[10]Yup.\e"
 		
-			"\0\s[0]It's March, \w3right? \w8Spring is\w3.\w3.\w3. \w6not very different from any other season back home.\e"
-		}
-		if month == 4 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for April.\w8\1\s[10]Yup.\e"
+				"\0\s[23]April~ \w6April~ \w8\w4\s[0]Best month to tease my dear friend\w6.\w6.\w6. \w8\w4Rupert. \w8He's allergic to pollen.\e"
+			}
+			if month == 5 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for May.\w8\1\s[10]Yup.\e"
 		
-			"\0\s[23]April~ \w6April~ \w8\w4\s[0]Best month to tease my dear friend\w6.\w6.\w6. \w8\w4Rupert. \w8He's allergic to pollen.\e"
-		}
-		if month == 5 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for May.\w8\1\s[10]Yup.\e"
+				"\0\s[23]\f[italic,true]May\f[italic,false] \w8I ask what month is it currently?\e"
+			}
+			if month == 6 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for June.\w8\1\s[10]Yup.\e"
 		
-			"\0\s[23]\f[italic,true]May\f[italic,false] \w8I ask what month is it currently?\e"
-		}
-		if month == 6 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for June.\w8\1\s[10]Yup.\e"
-		
-			"\0\s[0]Summer time\w3.\w3.\w3. \w8\w4\s[22]I hope you can enjoy a nice day on the beach, \w3%(username).\e"
-		}
-		if month == 7 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-		//"\0\s[0]This is dialogue for July.\w8\1\s[10]Yup.\e"
-		
-			"\0\s[0]Ah, \w3July, \w3my favourite month. \w8\w2\s[17]Well, used to be. \w8\w2Right now all of them feel pretty much the same. \w8\w8\s[19]Still, \w3July's pretty great.\e"
-		}
-		if month == 8 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-		//"\0\s[0]This is dialogue for August.\w8\1\s[10]Yup.\e"
-		
-			"\0\s[2]August\w3.\w3.\w3. \w8\w2\s[100]Donnie really liked August\w3.\w3.\w3.\e"
-		}
-		if month == 9 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-		//"\0\s[0]This is dialogue for September.\w8\1\s[10]Yup.\e"
-		
-			"\0\s[0]As a kid, \w3\s[19]I always hated September. \w8\w2And as a teen, \w2too. \n\w8\w2\s[79]Now\w3.\w3.\w3. \w6\s[2]winter's much worse.\e"
-		
-			"\0\s[2]I can't remember\w3.\w3.\w3. \w8\w5What happened in September\w3.\w3.\w3.\e"
-		}
-		if month == 10 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for October.\w8\1\s[10]Yup.\e"
-		
-			"\0\s[19]October rocks. \w8\w2Halloween was always so sick. \w8\w2I hope you enjoy it.\e"
-		
-			"\0\s[20]Looking for a Halloween costume? \w8\w2\s[19]I suggest a handsome turtle ninja master.\e"
-		}
-		if month == 11 && raphchain == 0 && donchain == 0 && splinterchain == 0
-		{
-			//"\0\s[0]This is dialogue for November.\w8\1\s[10]Yup.\e"
-		
-			//its about my birthday LMAO listen month dialogue was hard to come up with
-			"\0\s[0]Someone's birthday is in November\w3.\w3.\w3. \w8\w2\s[30]Happy brithday, \w3pal\w3.\w3.\w3.\e"
+				"\0\s[0]Summer time\w3.\w3.\w3. \w8\w4\s[22]I hope you can enjoy a nice day on the beach, \w3%(username).\e"
+			}
+			if month == 7 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for July.\w8\1\s[10]Yup.\e"
+			
+				"\0\s[0]Ah, \w3July, \w3my favourite month. \w8\w2\s[17]Well, used to be. \w8\w2Right now all of them feel pretty much the same. \w8\w8\s[19]Still, \w3July's pretty great.\e"
+			}
+			if month == 8 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for August.\w8\1\s[10]Yup.\e"
+			
+				"\0\s[2]August\w3.\w3.\w3. \w8\w2\s[100]Donnie really liked August\w3.\w3.\w3.\e"
+			}
+			if month == 9 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+			//"\0\s[0]This is dialogue for September.\w8\1\s[10]Yup.\e"
+				
+				"\0\s[0]As a kid, \w3\s[19]I always hated September. \w8\w2And as a teen, \w2too. \n\w8\w2\s[79]Now\w3.\w3.\w3. \w6\s[2]winter's much worse.\e"
+				
+				"\0\s[2]I can't remember\w3.\w3.\w3. \w8\w5What happened in September\w3.\w3.\w3.\e"
+			}
+			if month == 10 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for October.\w8\1\s[10]Yup.\e"
+			
+				"\0\s[19]October rocks. \w8\w2Halloween was always so sick. \w8\w2I hope you enjoy it.\e"
+			
+				"\0\s[20]Looking for a Halloween costume? \w8\w2\s[19]I suggest a handsome turtle ninja master.\e"
+			}
+			if month == 11 && raphchain == 0 && donchain == 0 && splinterchain == 0
+			{
+				//"\0\s[0]This is dialogue for November.\w8\1\s[10]Yup.\e"
+			
+				//its about my birthday LMAO listen month dialogue was hard to come up with
+				"\0\s[0]Someone's birthday is in November\w3.\w3.\w3. \w8\w2\s[30]Happy brithday, \w3pal\w3.\w3.\w3.\e"
+			}
 		}
 		//These ifs check what day of the week it is.
 		if weekday == 1 && raphchain == 0 && donchain == 0 && splinterchain == 0

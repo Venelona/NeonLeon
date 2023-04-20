@@ -496,6 +496,8 @@ OnClose
 						
 							"\0\s[19]I bid you farewell.\w8\w8"
 						
+							"\0\s[0]\i[5]*You wish Leo good night.\w8\w4\n\n[half]\s[23]Good night, \w3%(username).\w8\w8"
+						
 							"\0\s[0]\i[6]Nighty night.\w8\w8"
 					}
 				else //like above, this is the midnight time slot since it's the last one left.
@@ -507,6 +509,8 @@ OnClose
 							"\0\s[100]Stay alert, pal.\w8\w8"
 						
 							"\0\s[34]You'll sleep now, right?\w8\w8"
+						
+							"\0\s[0]\i[5]*You wish Leo good night.\w8\w4\n\n[half]\s[23]Good night, \w3%(username).\w8\w8"
 						
 							"\0\s[8]General's a-hoy!\w8\w8"
 					}
