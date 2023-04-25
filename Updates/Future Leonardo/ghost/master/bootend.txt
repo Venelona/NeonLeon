@@ -80,6 +80,15 @@ OnFirstBoot
 	supgot = 0
 	pizzagot = 0
 	timecheckarooni = 1
+	//watchcheck
+	leowatch = 0
+	watchleoscreen = 0
+	watchleomusic = 0
+	watchleodraw = 0
+	watchleogames = 0
+	watchleomovies = 0
+	watchleovideos = 0
+	watchleowrite = 0
 	
 	
 	if reference0 == 0 //Don't touch this line.
@@ -258,6 +267,15 @@ OnBoot
 	donchain = 0
 	splinterchain = 0
 	sadchainstart = 0
+	leowatch = 0
+	watchleoscreen = 0
+	watchleomusic = 0
+	watchleodraw = 0
+	watchleogames = 0
+	watchleomovies = 0
+	watchleovideos = 0
+	watchleowrite = 0
+	
 	
 	//IDLE POSES
 	if bigmood < -30 && bigmood > -70 && sadchain == 0 && raphchain == 0 && donchain == 0 && splinterchain == 0
@@ -272,6 +290,8 @@ OnBoot
 	{"\0\s[84]\1\s[10]"}
 	elseif raphchain == 2 || donchain == 2 || splinterchain == 2
 	{"\0\s[87]\1\s[10]"}
+	elseif leowatch == 1
+	{"\0\s[124]\1\s[10]"}
 	else
  	{"\0\s[0]\1\s[10]"} //This sets them up in their neutral pose for now.
 	
@@ -496,8 +516,6 @@ OnClose
 						
 							"\0\s[19]I bid you farewell.\w8\w8"
 						
-							"\0\s[0]\i[5]*You wish Leo good night.\w8\w4\n\n[half]\s[23]Good night, \w3%(username).\w8\w8"
-						
 							"\0\s[0]\i[6]Nighty night.\w8\w8"
 					}
 				else //like above, this is the midnight time slot since it's the last one left.
@@ -509,8 +527,6 @@ OnClose
 							"\0\s[100]Stay alert, pal.\w8\w8"
 						
 							"\0\s[34]You'll sleep now, right?\w8\w8"
-						
-							"\0\s[0]\i[5]*You wish Leo good night.\w8\w4\n\n[half]\s[23]Good night, \w3%(username).\w8\w8"
 						
 							"\0\s[8]General's a-hoy!\w8\w8"
 					}
@@ -635,7 +651,7 @@ OnShellChanged
  	{
  		nowshell = "Chin Stripes"
 		
- 		"\0\s[0]Ah, \w3a beard.\w8\w4\s[19]Makes all the difference, \w3am I right?\e"
+ 		"\0\s[0]Ah, \w3a beard. \w8\w4\s[19]Makes all the difference, \w3am I right?\e"
 		
 		"\0\s[0]Am I more handsome now?\e"
 		
@@ -644,16 +660,20 @@ OnShellChanged
  		//"\0\s[0]This is another bit of dialogue for switching to this hypothetical shell.\w8\1\s[18]Man if you actually use this, you should tell Zar, it'll blow her mind.\w8\0\n\n[half]\s[9]Shut up, we're not supposed to be in-character here.\e"
 		//I'll do it one day, Zar.
  	}
- 	elseif reference0 == "Another totally real shell wow"
+ 	elseif reference0 == "Taileo"
  	{
- 		nowshell = "thiswouldbesomuchwork"
+ 		nowshell = "Taileo"
 		
- 		"\0\s[100]I am a turtle, \w3I already have a shell.\e"
+ 		"\0\s[0]Oh look, \w3a tail! \w8\w4\s[23]It's like having my arm back\w3.\w3.\w3. \w8\w4\s[28]Almost.\e"
+		
+		"\0\s[54]Time for some wiggles.\e"
+		
+		//"\0\s[55]More face bananas! \w8\w4Won't you look at that!\e"
 		//Replace this as well.
  	}
  	else //For any shell without a specific name, or if you don't want to bother with individual responses to a shell.
  	{
-		"\0\s[0]This is %(reference[0]).\w8\w4\s[0]At your service.\e"
+		"\0\s[0]This is %(reference[0]). \w8\w4\s[0]At your service.\e"
 	
 	//Note the %(reference[0]) here! This time that should store the name of whatever shell you're switching to. Replace this bit of dialogue as you need.
 	}

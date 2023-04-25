@@ -17,13 +17,24 @@
 	
 OpenSakuraMenu
 {
-	if bigmood >= 0 && raphchain == 0 && donchain == 0 && splinterchain == 0
+	if bigmood >= 0 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 	{
 		"\0\s[0]\b2Yeah?"
 		"\0\s[0]\b2Hm?"
 		"\0\s[0]\b2Got a report?"
 		"\0\s[0]\b2Need anything?"
 		"\0\s[19]\b2Need a hand?"
+	}
+	elseif leowatch == 1
+	{
+		"\0\s[126]\b2Yeah?"
+		"\0\s[126]\b2Hm?"
+		"\0\s[123]\b2M?"
+		"\0\s[124]\b2..."
+		"\0\s[123]\b2Yes?"
+		"\0\s[123]\b2Hm?"
+		"\0\s[126]\b2M?"
+		"\0\s[126]\b2Yes?"
 	}
 	elseif bigmood < -100 && raphchain == 0 && donchain == 0 && splinterchain == 0
 	{
@@ -65,39 +76,66 @@ OpenSakuraMenu
 
 MenuRun
  {	
- 	wd = GetWeekDay
- 	ap = GetAP
- 	nowmin = Getnowmin
- 	nowhour = Getnowhour
-	//These four statements basically get the day of the week, whether it's AM or PM, the hour, and the time. It's putting together the information to display the time at the bottom of the balloon. Pay it no mind.
-	--
-	"\n\n\_q\b2" //The \n\n means two new lines as detailed in the walkthrough, and \_q means quick session, meaning all the text from this point on will display instantly instead of a few letters at a time like normal ghost dialogue.
-	--
-	if lastTalk != "" && raphchain != 3 && donchain != 3 && splinterchain != 3//What this does is check to see if the ghost has already said a random bit of dialogue on its own, essentially by seeing if the lastTalk thing is NOT empty (!= means "does not equal").
+	if leowatch == 1
 	{
-	  "\![*]\q[Repeat Last Dialogue,OnLastTalk]\n\n[half]"
-	  //If the ghost has said something, it will then display this menu option. You can replace "Repeat Last Dialogue" with whatever caption you like, such as "What were you saying?" or "What did you say?" or "Could you repeat that?" or something like that.
-	  
-	  //*********************Advanced User Info*******************************
-	  //These text boxes are meant for those who have an interest in expanding or using more complicated functions in their ghost. Also for my own reference in the future since I plan on using this template too, haha. If you have no interest in any of this and just want to keep things as simple as possible, feel free to skip these boxes.
-	  
-	  //I briefly touched in bootend.dic about \q, but I'll again cover it here. Pay very close attention to how this bit of dialogue is formatted. You'll see it goes \![*]\q[Displayed Name,linkedfunction]. Breaking it down, \![*] puts the balloon's option icon in front of the choice (usually a > or something), \q sets up the choice, Displayed Name which is the text that will display in the ghost's balloon, then linkedfunction, which is what the choice is linked to when the user clicks it. As you go through this file, look at how every menu option is set up, and you will see they all follow this format, give or take a \![*]. If you're going to be adding new options to menus or creating your own functions and such, make sure you follow this format and learn it well. Make sure to read the coding page of the walkthrough.
-	  //***********************************************************************
+		wd = GetWeekDay
+		ap = GetAP
+		nowmin = Getnowmin
+		nowhour = Getnowhour
+		//These four statements basically get the day of the week, whether it's AM or PM, the hour, and the time. It's putting together the information to display the time at the bottom of the balloon. Pay it no mind.
+		--
+		"\n\n\_q\b2" //The \n\n means two new lines as detailed in the walkthrough, and \_q means quick session, meaning all the text from this point on will display instantly instead of a few letters at a time like normal ghost dialogue.
+		--
+		if lastTalk != "" && raphchain != 3 && donchain != 3 && splinterchain != 3
+		{
+		"\![*]\q[Repeat Last Dialogue,OnLastTalk]\n\n[half]"
+		}
+		--
+		"\![*]\q[Say something,OnAiTalk]\n\n"
+	
+		--
+		"You can...\n\n[half]\![*]\q[Stand up,leowatchover]\n\n\n[half]"
+		--
+		"Or...\n\n[half]\![*]\q[Check your status,configmenu]\n\n[half]/
+		\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
 	}
-	--
- 	"\![*]\q[Say something,OnAiTalk]\n\n"
+	else
+	{
+		wd = GetWeekDay
+		ap = GetAP
+		nowmin = Getnowmin
+		nowhour = Getnowhour
+		//These four statements basically get the day of the week, whether it's AM or PM, the hour, and the time. It's putting together the information to display the time at the bottom of the balloon. Pay it no mind.
+		--
+		"\n\n\_q\b2" //The \n\n means two new lines as detailed in the walkthrough, and \_q means quick session, meaning all the text from this point on will display instantly instead of a few letters at a time like normal ghost dialogue.
+		--
+		if lastTalk != "" && raphchain != 3 && donchain != 3 && splinterchain != 3//What this does is check to see if the ghost has already said a random bit of dialogue on its own, essentially by seeing if the lastTalk thing is NOT empty (!= means "does not equal").
+		{
+		"\![*]\q[Repeat Last Dialogue,OnLastTalk]\n\n[half]"
+		//If the ghost has said something, it will then display this menu option. You can replace "Repeat Last Dialogue" with whatever caption you like, such as "What were you saying?" or "What did you say?" or "Could you repeat that?" or something like that.
+	  
+		//*********************Advanced User Info*******************************
+		//These text boxes are meant for those who have an interest in expanding or using more complicated functions in their ghost. Also for my own reference in the future since I plan on using this template too, haha. If you have no interest in any of this and just want to keep things as simple as possible, feel free to skip these boxes.
+	  
+		//I briefly touched in bootend.dic about \q, but I'll again cover it here. Pay very close attention to how this bit of dialogue is formatted. You'll see it goes \![*]\q[Displayed Name,linkedfunction]. Breaking it down, \![*] puts the balloon's option icon in front of the choice (usually a > or something), \q sets up the choice, Displayed Name which is the text that will display in the ghost's balloon, then linkedfunction, which is what the choice is linked to when the user clicks it. As you go through this file, look at how every menu option is set up, and you will see they all follow this format, give or take a \![*]. If you're going to be adding new options to menus or creating your own functions and such, make sure you follow this format and learn it well. Make sure to read the coding page of the walkthrough.
+		//***********************************************************************
+		}
+		--
+		"\![*]\q[Say something,OnAiTalk]\n\n"
 	
-	//This option will force the ghost to say something from aitalk if the user clicks it. Just replace "Say something" and "Say something 2" with whatever captions you think would be appropriate for such an option. IF you don't want two options for captions, delete one of the lines.
-	//Advanced users, you can add multiple captions for any option you add to a menu you make just like this, as long as you separate it from the other options into its own section with two dashes above and below.
-	--
-	"You can...\n\n[half]\![*]\q[Ask him a question,askyask]\n\n[half]/
-	\![*]\q[Give him something,giveygive]\n\n\n[half]"
-	--
-	"Or...\n\n[half]\![*]\q[Check your status,configmenu]\n\n[half]/
-	\![*]\q[Run errands,dosomething]\n\n\n[half]/
- 	\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
+		//This option will force the ghost to say something from aitalk if the user clicks it. Just replace "Say something" and "Say something 2" with whatever captions you think would be appropriate for such an option. IF you don't want two options for captions, delete one of the lines.
+		//Advanced users, you can add multiple captions for any option you add to a menu you make just like this, as long as you separate it from the other options into its own section with two dashes above and below.
+		--
+		"You can...\n\n[half]\![*]\q[Ask him a question,askyask]\n\n[half]/
+		\![*]\q[Give him something,giveygive]\n\n[half]/
+		\![*]\q[Interact,dointeracty]\n\n\n[half]"
+		--
+		"Or...\n\n[half]\![*]\q[Check your status,configmenu]\n\n[half]/
+		\![*]\q[Run errands,dosomething]\n\n\n[half]/
+		\![*]\q[Nevermind,CANCEL]\n\n\n[half]%(wd) %(nowhour):%(nowmin) %(ap), %(month)/%(day)/%(year)\e"
 	
-	//These three lead to the Config Menu, the Function menu, and Cancel. You can leave these alone if you like. All the envelopes at the end (see word.dic) basically display the year, month, day, weekday, and time.
+		//These three lead to the Config Menu, the Function menu, and Cancel. You can leave these alone if you like. All the envelopes at the end (see word.dic) basically display the year, month, day, weekday, and time.
+	}
 }
 
 //Leave this alone
@@ -710,7 +748,7 @@ Select.CANCEL
 			
 			"\0\s[2]Hm.\e"
 		}
-		elseif bigmood < -100 && raphchain == 0 && donchain == 0 && splinterchain == 0
+		elseif bigmood < -100 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 		{
 			"\0\s[2]Okay.\e"
 		
@@ -719,6 +757,14 @@ Select.CANCEL
 			"\0\s[79]\w4.\w4.\w4.\e"
 			
 			"\0\s[2]Hm.\e"
+		}
+		elseif leowatch == 1
+		{
+			"\0\s[123]\w1.\w1.\w1.\e"
+				
+			"\0\s[123]Uhum.\e"
+				
+			"\0\s[123]Sure.\e"
 		}
 		elseif raphchain > 0 || donchain > 0 || splinterchain > 0
 		{
@@ -887,6 +933,12 @@ OnChoiceTimeout
 		"\0\s[82]\w1.\w1.\w1.\e"
 				
 		"\0\s[82]Uhum.\e"
+	}
+	elseif leowatch == 1
+	{
+		"\0\s[123]\w1.\w1.\w1.\e"
+				
+		"\0\s[123]Uhum.\e"
 	}
 	else
 	{
@@ -2277,4 +2329,237 @@ Select.askotherpeople
 	"\0\s[0]\i[5]*You ask Leo about Baxter Stockboy.\n\n[half]\w8\w4\s[0]Thankfully, \w3\s[19]he grew up to be less annoying.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
 	"\0\s[0]\i[5]*You ask Leo about Todd.\n\n[half]\w8\w4\s[79]Todd is a force of nature.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
 	"\0\s[0]\i[5]*You ask Leo about Warren Stone.\n\n[half]\w8\w4\s[0]Who?\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
+}
+
+
+
+//INTERACT----------
+Select.dointeracty
+{
+	if raphchain > 0 || donchain > 0 || splinterchain > 0
+		{
+			"\i[5]*This doesn't seem like a good time for this\w3.\w3.\w3.\w8\w4\n\n\_q"
+			--
+			"\![*]\q[Go back,BACKTOMENU]\n/
+			\![*]\q[Let him be,CANCEL]\e"
+		}
+	elseif bigmood < -200
+		{
+			"\i[5]*It looks like he doesn't want to do anything right now\w3.\w3.\w3.\w8\w4\n\n\_q"
+			--
+			"\![*]\q[Go back,BACKTOMENU]\n/
+			\![*]\q[Let him be,CANCEL]\e"
+		}
+	elseif happycount >= 100
+		{
+			"\i[5]*You want to...\n\_q\n"
+			--
+			"\![*]\q[Watch something together,watchstuff]\n\n\n/
+			\![*]\q[Go back,BACKTOMENU]\n/
+			\![*]\q[Nevermind,CANCEL]\e"
+		}
+	else
+		{
+			"\i[5]*It seems Leo is still too wary of you to do anything...\n\_q\n\n"
+			--
+			"\![*]\q[Go back,BACKTOMENU]\n/
+			\![*]\q[Nevermind,CANCEL]\e"
+		}
+}
+
+
+//WATCH STUFF--------------
+Select.watchstuff//MENU
+{
+	 	"\i[5]\b2*You want him to watch...\n\_q\n\n"
+		--
+ 		"\![*]\q[Videos,watchvids]\n/
+		\![*]\q[Movies,watchmovies]\n/
+		\![*]\q[Games,watchgames]\n/
+		\![*]\q[Drawing,watchdraw]\n/
+		\![*]\q[Writing,watchwrite]\n/
+		\![*]\q[Music,watchmusic]\n\n[half]/
+		\![*]\q[Screen,watchscreen]\n\n\n/
+		\![*]\q[Go back,BACKTOMENU]\n/
+ 		\![*]\q[Nevermind,CANCEL]\e"
+}
+
+Select.watchvids//VIDEOS
+{
+	leowatch = 1
+	watchleovideos = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are we watching?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 I miss browsing random videos. \s[123]Or having time to watch them, \w3haha.\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Let's go!\s[122]\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll cheer me up.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I always like watching things with you.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch videos with you. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 This way I can learn more things about you, \w3hehe.\e"
+	}
+}
+
+Select.watchmovies//MOVIES
+{
+	leowatch = 1
+	watchleomovies = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are we watching?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 It better have some killer action scenes.\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Let's go!\s[122] \w8\w8\w8You got anything with Lou Jitsu?\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll cheer me up.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe something with a happy ending\w3.\w3.\w3.\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I always like watching things with you.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch movies with you. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 Let's see what kind of movies you like to see.\e"
+	}
+}
+
+Select.watchgames//GAMES
+{
+	leowatch = 1
+	watchleogames = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are you going to play?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 Is it going to be a let's play?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Let's go!\s[122] \w8\w8\w8I miss playing video games. \w8\w4\s[123]Watching them is not the same, \w3\s[127]but I get to judge you!\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll cheer me up.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Sure thing. \s[122]\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I believe in you, \w3bud.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I'll be rooting for you.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I wish I could play something with you\w3.\w3.\w3.\e"
+	}
+}
+
+Select.watchdraw//DRAW
+{
+	leowatch = 1
+	watchleodraw = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are you going to draw?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 How about you draw me?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Let's go!\s[122] \w8\w8\w8It's like reading comics at a painstakingly slow speed!\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll be calming\w3.\w3.\w3.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure thing. \s[122]\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I like the way you draw.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 Mikey likes to say that art is a struggle\w3 - I wish you good luck.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I'm not an art guy, \w3but like your art.\e"
+	}
+}
+
+Select.watchwrite//WRITING
+{
+	leowatch = 1
+	watchleowrite = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are you going to draw?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 How about you draw me?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Let's go!\s[122] \w8\w8\w8It's like reading comics at a painstakingly slow speed!\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll be calming\w3.\w3.\w3.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure thing. \s[122]\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I like the way you draw.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 Mikey likes to say that art is a struggle\w3 - I wish you good luck.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I'm not an art guy, \w3but like your art.\e"
+	}
+}
+
+Select.watchmusic//MUSIC
+{
+	leowatch = 1
+	watchleomusic = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are we listening to today?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 Don't complain if I start singing along.\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 I love me some music.\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll be calming\w3.\w3.\w3.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll cheer me up\w3.\w3.\w3.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure. \s[122]\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8Show off your music taste, \w3compadre.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I wish I could bring you along to one of our karaoke parties.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to listen to music with you. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I'm always ready to groove.\e"
+	}
+}
+
+Select.watchscreen//SCREEN
+{
+	leowatch = 1
+	watchleoscreen = 1
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are you going to do?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 Things! \w8\w3Things! \w8\w3Things!\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]You bet I do!\s[122]\e"
+	if bigmood < 0
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Hopefully it will keep my mind off of\w3.\w3.\w3. \w8\w4Stuff.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Sure thing. \s[122]\e"
+	}
+	if happycount > 300
+	{
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8Technically I always watch you do things, \w3\s[123]but this way I can do it without resorting to my sneaky ninja ways.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 Let's chill together.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I like doing that.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I like watching you work on your stuff.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you do things. \n\n[half]\w8\w4\s[0]Yeah!\s[122]\w8\w8\w8 It's quite calming.\e"
+	}
+}
+
+Select.leowatchover//STAND UP
+{
+	leowatch = 0
+	watchleoscreen = 0
+	watchleomusic = 0
+	watchleodraw = 0
+	watchleogames = 0
+	watchleomovies = 0
+	watchleovideos = 0
+	watchleowrite = 0
+	lastTalk = ""
+	//"\0\s[0]\i[5]*You tell Leo the watch party is over. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
+	"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4Ah, \w3alright.\s[129]\w8\w8 It was fun.\w8\s[0]\e"
+	"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4Alright then.\s[129]\w8\w8\w8 Good time.\w8\s[0]\e"
+	"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4Ok\w1a\w1a\w1ay. \s[129]\w8\w8\w5\s[0]What now?\w8\e"
+	if happycount > 300
+	{
+		"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4A\w1w\w1w\w1h\w1h\w1h\w1h\w3.\w3.\w3. \s[129]\w8\w3Alright.\w8\s[0]\e"
+		"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4Alright. \s[129]\w8\w3Well\w3.\w3.\w3. \w8\w4\s[19]What are we gonna do now?\e"
+		"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4Okie\w3-dokie. \s[129]\w8\w3I rea\s[23]lly enjoyed that.\e"
+		"\0\s[124]*You tell Leo the watch party is over. \n\n[half]\w8\w4Okie\w3-dokie. \s[129]\w8\w3Can we\s[0] do this again later?\e"
+	}
 }

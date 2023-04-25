@@ -1,16 +1,16 @@
 developer_options.txtabe155229c2a4c19f45f89820f641afesize=138date=2023-04-02T18:48:35charset=windows-1251
 ghost/master/Leoicon.icod6d2b8b4562b28b5356d35dbcbf0f370size=101634date=2023-02-15T19:42:30
-ghost/master/aitalk.txt28e161643664fa6ed9c62899b53f960dsize=88339date=2023-04-21T01:22:19
+ghost/master/aitalk.txt65a7c0207f24ec61179bfe54f4aef4a9size=108287date=2023-04-26T02:13:33
 ghost/master/anchor.txt8710fefeb31c223f44a2dc9a555d3b90size=4981date=2023-04-02T19:12:35
 ghost/master/aya5.dll5f91d5ac918774c5295e47c9cd8b18a5size=671744date=2018-12-02T22:24:32
 ghost/master/aya5.txt0a1b4b5541683dc1950b631e1605c578size=1282date=2023-04-02T19:12:53
-ghost/master/bootend.txt6321caf725f846398a4288adff38114fsize=38571date=2023-04-21T01:18:30
+ghost/master/bootend.txtd9e2eceaf4202fd8db206be852c13c2fsize=38852date=2023-04-26T02:07:43
 ghost/master/commu.txt3952cd181d5f201691c5f9eeb18dc53fsize=6649date=2023-04-02T19:19:22
 ghost/master/descript.txtcbfd627f3cc350479ec2095dabd7fd48size=2626date=2023-04-02T19:13:27
 ghost/master/developer_options.txtabe155229c2a4c19f45f89820f641afesize=138date=2023-04-02T18:48:35
 ghost/master/etc.txt116d596e5073ef3e9b838cea693da9ffsize=35200date=2023-04-21T00:50:21
-ghost/master/menu.txtd4b658fc8aedbc76e7ad0e37fee1ad72size=219228date=2023-04-21T00:34:39
-ghost/master/mouse.txt414d238938a2734fc93dd76610b50157size=23436date=2023-04-21T00:42:14
+ghost/master/menu.txt08d0228199475f2153c983f2f78a1bcbsize=233608date=2023-04-26T01:52:33
+ghost/master/mouse.txt1a9133740bba3cb050a195f33247d226size=27036date=2023-04-25T23:46:29
 ghost/master/nameteach.txt8e30f85fa46c776b06d333db6bc13198size=47976date=2023-04-11T18:47:17
 ghost/master/shiori3.txt8fb773e71fd3b9458fe8767aab140655size=35270date=2023-04-02T19:20:45
 ghost/master/string.txt4e65b32e8a084430e33c7f8226d57a46size=8211date=2023-04-13T23:05:51
@@ -180,6 +180,37 @@ shell/Chin Stripes/surface1321.png11b6606bbed770db8221711dd51d6c65size=1209da
 shell/Chin Stripes/surface1322.pnga8c6dbfa8ae7264e6c8eec26b679cd8esize=41314date=2023-04-14T21:13:05
 shell/Chin Stripes/surface1323.pngba6c8e8cc9282197ba3b264d52b336f9size=934date=2023-04-14T21:13:07
 shell/Chin Stripes/surface1324.png5a32e9df55f3ae97b71aa72ac74ef3ddsize=1162date=2023-04-14T21:13:10
+shell/Chin Stripes/surface1325.png80dc129c480c7f139e2469d05b68f36fsize=43000date=2023-04-25T19:51:57
+shell/Chin Stripes/surface1326.png55a68a3a7a2c4f3e8e65ff011b2b26b0size=42832date=2023-04-25T19:52:00
+shell/Chin Stripes/surface1327.png270be4a25a9d3cfce602dbf77487847asize=40196date=2023-04-25T19:52:04
+shell/Chin Stripes/surface1328.png9fd510e1064fe5833dbebb5b5ed3a582size=33246date=2023-04-25T19:52:36
+shell/Chin Stripes/surface1329.png8ce0e9a2b9385682558166b2212670a8size=38349date=2023-04-25T19:52:52
+shell/Chin Stripes/surface1330.pngf0d344339e44e77def61d8bda6efd6e2size=35751date=2023-04-25T17:23:05
+shell/Chin Stripes/surface1331.png6b3a1863621391d48f37f16a24c0f88bsize=31255date=2023-04-25T17:23:11
+shell/Chin Stripes/surface1332.png30022dc9b042c6992f4f35d22d3fdd0asize=36096date=2023-04-25T17:23:27
+shell/Chin Stripes/surface1333.pngf15d520fd349187c58a76ebbc043ffd7size=35232date=2023-04-25T17:23:46
+shell/Chin Stripes/surface1334.pngc921ced1cb4371ed429ad77d73ce6894size=29577date=2023-04-25T17:23:52
+shell/Chin Stripes/surface1335.png2ad6c6b53727ad049156696f837f1241size=25163date=2023-04-25T17:24:09
+shell/Chin Stripes/surface1336.png615fa6f34ab04ba934e2a649e1888a1bsize=25575date=2023-04-25T17:24:19
+shell/Chin Stripes/surface1337.png01cdb28143cd53271dc03140bceb5a7bsize=24660date=2023-04-25T17:24:28
+shell/Chin Stripes/surface1338.png3efd9123c890e8c0280e21e2ad99de67size=24616date=2023-04-25T17:24:37
+shell/Chin Stripes/surface1339.png03484e8636d8c6a5ab48c70467ca3a08size=23130date=2023-04-25T17:24:43
+shell/Chin Stripes/surface1340.png4ceee56dfb2c8c2e20d095cc18ded08csize=23005date=2023-04-25T17:39:49
+shell/Chin Stripes/surface1341.pngac8c1c505576530deb590ce53e14b97bsize=23164date=2023-04-25T17:40:10
+shell/Chin Stripes/surface1342.png2302679126a347e9fc8620b2a5d48544size=23147date=2023-04-25T17:40:22
+shell/Chin Stripes/surface1343.png9a507080b9016ec31c55298eb708bdf7size=1153date=2023-04-25T17:40:36
+shell/Chin Stripes/surface1344.png323a56ee4090995acac67ee80a906ae8size=24641date=2023-04-25T17:41:35
+shell/Chin Stripes/surface1345.png6d4ab3bbc54530b0b4adb2336a802bc5size=24693date=2023-04-25T17:47:45
+shell/Chin Stripes/surface1346.png2c83e0f99866154cf05d8e484cc69340size=559date=2023-04-25T17:50:00
+shell/Chin Stripes/surface1347.png2cb6d49b5a8fdb677849c70a6b568053size=799date=2023-04-25T17:50:06
+shell/Chin Stripes/surface1348.png4ad933f4290d3bdd1ed9190d57941b51size=659date=2023-04-25T17:57:31
+shell/Chin Stripes/surface1349.png69cfec08382c2445e2604243223add5bsize=825date=2023-04-25T17:57:38
+shell/Chin Stripes/surface1350.png03484e8636d8c6a5ab48c70467ca3a08size=23130date=2023-04-25T18:00:19
+shell/Chin Stripes/surface1351.png006f42d9c3a86abfe8207bb2511a4ff0size=24759date=2023-04-25T18:13:17
+shell/Chin Stripes/surface1352.pngfdf12aa4177908938e3acc0cb7f15bfesize=24908date=2023-04-25T18:13:07
+shell/Chin Stripes/surface1353.png569aa9e3e2019809c258cc6f61e427dfsize=25846date=2023-04-25T18:49:17
+shell/Chin Stripes/surface1354.pnge2e06e03f072473116b8c44e21187691size=27163date=2023-04-25T18:49:56
+shell/Chin Stripes/surface1355.pngd499b823c160d59dac634841132b7a8dsize=27444date=2023-04-25T18:50:39
 shell/Chin Stripes/surface2.pnga0f7ecb3ac9c31789fca767a2d036154size=48110date=2023-04-14T21:13:14
 shell/Chin Stripes/surface2001.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-04-14T21:02:51
 shell/Chin Stripes/surface2002.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-04-14T21:02:51
@@ -393,7 +424,7 @@ shell/Chin Stripes/surface907.pnge234940fd77eee425b3a5232d619790fsize=43560da
 shell/Chin Stripes/surface908.png0b83a02cd6e05454177a1d88d71e9afcsize=43524date=2023-04-14T21:29:54
 shell/Chin Stripes/surface909.png5388ce196303eee8335bb97dfe087016size=41642date=2023-04-14T21:29:57
 shell/Chin Stripes/surface9999.pngd663f5dd1fe86e8a2b4978ce5ce145e2size=42086date=2023-04-14T21:30:00
-shell/Chin Stripes/surfaces.txt04fbd9b6e45f851a7299c3d8f146933csize=179943date=2023-04-14T21:30:02
+shell/Chin Stripes/surfaces.txt390768b0a03aeb8ba9146978e182a8d2size=184877date=2023-04-25T20:05:31
 shell/Chin Stripes/surfacetable.txtf132ad553a131088b08cdbc8dcf3ef86size=414date=2023-04-14T21:30:05
 shell/Chin Stripes/thumbnail.png6f6faafb22108767f27c5e8d0e35ef42size=256382date=2023-04-14T21:30:11
 shell/Neon Leon/descript.txt1ecdc284b25ebcf020e63b8c39d51b59size=5482date=2023-03-17T16:02:47
@@ -560,6 +591,38 @@ shell/Neon Leon/surface1321.png11b6606bbed770db8221711dd51d6c65size=1209date=
 shell/Neon Leon/surface1322.png4d6c504149e229e329b0725a510fb990size=41303date=2023-03-14T18:23:39
 shell/Neon Leon/surface1323.pngba6c8e8cc9282197ba3b264d52b336f9size=934date=2023-03-14T18:23:54
 shell/Neon Leon/surface1324.png5a32e9df55f3ae97b71aa72ac74ef3ddsize=1162date=2023-03-14T18:24:01
+shell/Neon Leon/surface1325.png2003674ace14ddb2efc0c2a4dafbac77size=42917date=2023-04-25T17:21:41
+shell/Neon Leon/surface1326.png84fada29e82902d7de3ee568e7ab6b41size=42768date=2023-04-25T17:22:07
+shell/Neon Leon/surface1327.png7b36a7f0917ffbbaaaeb30ae96c71ca5size=40141date=2023-04-25T17:22:13
+shell/Neon Leon/surface1328.png7eef13374a554a2f76f950ebde26fb7bsize=33332date=2023-04-25T17:22:19
+shell/Neon Leon/surface1329.pngcca2784ae270b521eed62970bb3869fesize=38326date=2023-04-25T17:22:38
+shell/Neon Leon/surface1330.pngf0d344339e44e77def61d8bda6efd6e2size=35751date=2023-04-25T17:23:05
+shell/Neon Leon/surface1331.png6b3a1863621391d48f37f16a24c0f88bsize=31255date=2023-04-25T17:23:11
+shell/Neon Leon/surface1332.png30022dc9b042c6992f4f35d22d3fdd0asize=36096date=2023-04-25T17:23:27
+shell/Neon Leon/surface1333.pngf15d520fd349187c58a76ebbc043ffd7size=35232date=2023-04-25T17:23:46
+shell/Neon Leon/surface1334.pngc921ced1cb4371ed429ad77d73ce6894size=29577date=2023-04-25T17:23:52
+shell/Neon Leon/surface1335.png2ad6c6b53727ad049156696f837f1241size=25163date=2023-04-25T17:24:09
+shell/Neon Leon/surface1336.png615fa6f34ab04ba934e2a649e1888a1bsize=25575date=2023-04-25T17:24:19
+shell/Neon Leon/surface1337.png01cdb28143cd53271dc03140bceb5a7bsize=24660date=2023-04-25T17:24:28
+shell/Neon Leon/surface1338.png3efd9123c890e8c0280e21e2ad99de67size=24616date=2023-04-25T17:24:37
+shell/Neon Leon/surface1339.png03484e8636d8c6a5ab48c70467ca3a08size=23130date=2023-04-25T17:24:43
+shell/Neon Leon/surface1340.png4ceee56dfb2c8c2e20d095cc18ded08csize=23005date=2023-04-25T17:39:49
+shell/Neon Leon/surface1341.pngac8c1c505576530deb590ce53e14b97bsize=23164date=2023-04-25T17:40:10
+shell/Neon Leon/surface1342.png2302679126a347e9fc8620b2a5d48544size=23147date=2023-04-25T17:40:22
+shell/Neon Leon/surface1343.png9a507080b9016ec31c55298eb708bdf7size=1153date=2023-04-25T17:40:36
+shell/Neon Leon/surface1344.png323a56ee4090995acac67ee80a906ae8size=24641date=2023-04-25T17:41:35
+shell/Neon Leon/surface1345.png6d4ab3bbc54530b0b4adb2336a802bc5size=24693date=2023-04-25T17:47:45
+shell/Neon Leon/surface1346.png2c83e0f99866154cf05d8e484cc69340size=559date=2023-04-25T17:50:00
+shell/Neon Leon/surface1347.png2cb6d49b5a8fdb677849c70a6b568053size=799date=2023-04-25T17:50:06
+shell/Neon Leon/surface1348.png4ad933f4290d3bdd1ed9190d57941b51size=659date=2023-04-25T17:57:31
+shell/Neon Leon/surface1349.png69cfec08382c2445e2604243223add5bsize=825date=2023-04-25T17:57:38
+shell/Neon Leon/surface1350.png03484e8636d8c6a5ab48c70467ca3a08size=23130date=2023-04-25T18:00:19
+shell/Neon Leon/surface1351.png006f42d9c3a86abfe8207bb2511a4ff0size=24759date=2023-04-25T18:13:17
+shell/Neon Leon/surface1352.pngfdf12aa4177908938e3acc0cb7f15bfesize=24908date=2023-04-25T18:13:07
+shell/Neon Leon/surface1353.png569aa9e3e2019809c258cc6f61e427dfsize=25846date=2023-04-25T18:49:17
+shell/Neon Leon/surface1354.pnge2e06e03f072473116b8c44e21187691size=27163date=2023-04-25T18:49:56
+shell/Neon Leon/surface1355.pngd499b823c160d59dac634841132b7a8dsize=27444date=2023-04-25T18:50:39
+shell/Neon Leon/surface1356.pngc871e8a5e3aba33e8b2d382a66f18c78size=26041date=2023-04-25T19:57:21
 shell/Neon Leon/surface2.png4702257ed329f86f745b02ea7486f56dsize=48007date=2023-02-21T01:19:37
 shell/Neon Leon/surface2001.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:07
 shell/Neon Leon/surface2002.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:12
@@ -773,7 +836,454 @@ shell/Neon Leon/surface907.png2e5e14a55172bf941ca2c55b1d4873d3size=43554date=
 shell/Neon Leon/surface908.pngfc466687c438f7d414fed3703c51d30dsize=43516date=2023-03-03T00:53:28
 shell/Neon Leon/surface909.pngf1016091e9f21abba504b47af1f3a68csize=41580date=2023-03-11T15:49:08
 shell/Neon Leon/surface9999.pnga15e72aebc6cb344cd1d4c6ec5497e3bsize=42054date=2023-03-13T01:03:52
-shell/Neon Leon/surfaces.txtb641dff0c3dab4d09499570b044ea9casize=181014date=2023-04-15T23:28:39
+shell/Neon Leon/surfaces.txt95d6d5bff89015350e1a6984470870c9size=185950date=2023-04-25T20:05:02
 shell/Neon Leon/surfacetable.txtf132ad553a131088b08cdbc8dcf3ef86size=414date=2020-10-30T02:07:16
 shell/Neon Leon/thumbnail.png401d1357c4b03eca8815ac56289a217csize=246716date=2023-03-18T01:17:51
+shell/Taileo/descript.txta83758fbdee4b1ef51c38ff3d28b9b6fsize=5479date=2023-04-15T23:32:33
+shell/Taileo/h im.pnga31337cf51589858222c7f2c030d525dsize=44470date=2023-02-15T20:20:43
+shell/Taileo/menu_background.png0ca515c4b08f7e9b12f9e7cab9593717size=27646date=2023-03-17T16:07:10
+shell/Taileo/menu_foreground.pngc7d0420988ac124f1185ada6ae52c9f6size=7267date=2023-03-17T15:49:28
+shell/Taileo/menu_sidebar.png84f855cb7827e7eb291a1c0a00713aa8size=5083date=2023-03-17T16:08:13
+shell/Taileo/read me.txt6856fd1ab7cfd307653af0e350898708size=2064date=2020-11-07T01:22:18
+shell/Taileo/s1.pnge768fa5cfd28f0f094eafe0b86c4a770size=43966date=2023-02-22T23:08:01
+shell/Taileo/surface0011q.pngc3db4032655f907a9bc89736a60fc8b8size=46575date=2023-02-22T18:16:03
+shell/Taileo/surface10.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:40:55
+shell/Taileo/surface10026.pnged53d55c90e67b478ab1543e9af31d66size=2079date=2023-02-22T17:14:12
+shell/Taileo/surface10027.png29102d238c2d9f53dd754db679b12671size=8869date=2023-02-22T17:14:18
+shell/Taileo/surface10028.pngf432f0ff89979515b0ba15964571d16esize=10344date=2023-02-22T17:14:26
+shell/Taileo/surface10029.png0aa9cde0a81434ba725acaa051719016size=11865date=2023-02-22T17:14:31
+shell/Taileo/surface10030.pngddc67651f37509d27296af14d4c0b997size=10492date=2023-02-22T17:14:40
+shell/Taileo/surface10031.png9ecca847139bf9bb041b1efed2ba3218size=11095date=2023-02-22T17:14:56
+shell/Taileo/surface10032.png05605c95bd376fc8a80f1e49a173c669size=10269date=2023-02-22T17:15:33
+shell/Taileo/surface10033.pngcb20ddb103cbfa905c9e4af3489ad025size=15749date=2023-02-22T17:17:41
+shell/Taileo/surface10034.pngf5d4fd8fff193f0e3c112bbf9e6954c7size=32659date=2023-02-22T17:20:51
+shell/Taileo/surface10035.pnge0a7c05c776c10f2b3d736cb87ec837csize=45075date=2023-02-22T17:23:07
+shell/Taileo/surface10036.pngc3db4032655f907a9bc89736a60fc8b8size=46575date=2023-02-22T18:15:58
+shell/Taileo/surface10037.pngd61b9641d549b9b594f723724a9913acsize=50594date=2023-02-22T17:25:56
+shell/Taileo/surface10038.png9506941e1b7b4abd3db97b54b82a5d24size=47991date=2023-02-22T18:05:22
+shell/Taileo/surface10039.png4e012216fe22d17edf7e1a1773c2c37bsize=53067date=2023-02-22T18:06:31
+shell/Taileo/surface10040.pnga78999af02176b5e39542e8e30f09100size=55115date=2023-02-22T18:07:34
+shell/Taileo/surface10041.png0ff7e43edf1a260cfaa2831350756229size=52321date=2023-02-22T18:07:52
+shell/Taileo/surface10042.pngc8708ceaefb52edf7222b7e119c47f7csize=50264date=2023-02-22T18:08:13
+shell/Taileo/surface10043.pngfec76a382a861b44415f61f748d9b575size=44602date=2023-02-22T18:08:38
+shell/Taileo/surface10044.png607a932533f0fb3e4116fbee6a0b0bf3size=45145date=2023-02-22T18:08:58
+shell/Taileo/surface10045.pngbbdf2956faedda721724cf56046812a8size=44498date=2023-02-22T18:09:09
+shell/Taileo/surface10046.pngb689cc771a671a14bad1a09f2b9f5fdcsize=41608date=2023-02-22T18:09:16
+shell/Taileo/surface10047.png84f9e3a72e1ce5b1eb8614aa1bbf0c3bsize=40355date=2023-02-22T18:09:23
+shell/Taileo/surface10048.pnga9755e459f08760d212e297067bd9ddbsize=40291date=2023-02-22T18:11:39
+shell/Taileo/surface10049.pngaabcf22f2be2e4d4247745d131dde27asize=40176date=2023-02-22T18:12:03
+shell/Taileo/surface10050.pngec8b85c8a50c10083c0f7997bea326a0size=40289date=2023-02-22T18:12:18
+shell/Taileo/surface10051.png84f9e3a72e1ce5b1eb8614aa1bbf0c3bsize=40355date=2023-02-22T18:12:28
+shell/Taileo/surface10052.png60ddd12e628331b97d4640189005e39csize=40300date=2023-02-22T18:12:51
+shell/Taileo/surface10053.png4a428f46af6fd426d4b0922d2f4d083dsize=40279date=2023-02-22T18:13:11
+shell/Taileo/surface10054.png60ddd12e628331b97d4640189005e39csize=40300date=2023-02-22T18:13:19
+shell/Taileo/surface10055.png84f9e3a72e1ce5b1eb8614aa1bbf0c3bsize=40355date=2023-02-22T18:13:32
+shell/Taileo/surface10056.png79c6e49cd2793e6ff18697020ed199basize=42424date=2023-02-22T23:08:32
+shell/Taileo/surface10057.png3a3e838f81377b32e1149d65e4c9e7f8size=35875date=2023-02-22T23:08:41
+shell/Taileo/surface10058.png517ba5aff3e08226d9d274e64a6738ccsize=54059date=2023-02-23T15:40:22
+shell/Taileo/surface10059.pnga0ef2fd4ce7dc9cf46f6687626551235size=49933date=2023-02-23T15:40:27
+shell/Taileo/surface10060.pngd48ac9d07f577edcd1049a87107cccc3size=25414date=2023-03-03T20:30:00
+shell/Taileo/surface10061.pnge822244090ce8cc546cb1004c21cda7esize=50128date=2023-02-23T15:40:46
+shell/Taileo/surface10062.png22eb25f568f945f0e21a029abce3e6c6size=50157date=2023-03-03T20:40:26
+shell/Taileo/surface10063.png1029764d47321f5c8538801014edf8c1size=49706date=2023-03-03T20:55:04
+shell/Taileo/surface10064.pnge582a9c8a4995a8d5777da9137a68a46size=49575date=2023-03-03T20:55:24
+shell/Taileo/surface10065.pnga67b27929de2e8201ad40b6b9d713b37size=49390date=2023-03-03T20:56:51
+shell/Taileo/surface10066.pnge582a9c8a4995a8d5777da9137a68a46size=49575date=2023-03-03T20:57:07
+shell/Taileo/surface10067.png1029764d47321f5c8538801014edf8c1size=49706date=2023-03-03T20:57:16
+shell/Taileo/surface10068.png0b5b24b111aa21b387120cc9f2f5921asize=52816date=2023-03-02T22:42:47
+shell/Taileo/surface10069.png93cd2f174f514e000bd5c9c8ba678fa1size=51680date=2023-03-02T22:43:31
+shell/Taileo/surface10070.pngf8af376cfda068dde1fced10d0d618dbsize=48470date=2023-03-02T22:43:34
+shell/Taileo/surface10071.png1bf036b9d9a3bd347ef090bff5aad84esize=49827date=2023-03-03T21:02:30
+shell/Taileo/surface101.pngd02f5a5bd2983c42e2de4f34aad8d5d0size=1164date=2023-02-21T01:33:19
+shell/Taileo/surface102.png7afec5982542099e4110eeab775c821asize=710date=2023-02-21T01:33:11
+shell/Taileo/surface103.png18896024016c5b8ff22de06277ff769dsize=872date=2023-02-21T01:33:03
+shell/Taileo/surface104.png049996e4f8113d3590617614dd32c029size=810date=2023-02-21T01:32:54
+shell/Taileo/surface1100.png11bbd7a04df60356e70d4c37d6a72cfesize=45384date=2023-04-20T22:58:44
+shell/Taileo/surface1101.png42c1e7b198003c4e5e38faf67b83f5basize=866date=2023-03-03T23:30:23
+shell/Taileo/surface11010.png92b0d152376ee300bd8ce26d914ea129size=1202date=2023-03-03T23:33:36
+shell/Taileo/surface11011.pngfcc897da02f6e1d646a285821196cd0bsize=1150date=2023-03-04T00:05:12
+shell/Taileo/surface11012.png482c5488e4121b651ee272da9cca7cd9size=1149date=2023-03-04T00:05:41
+shell/Taileo/surface11013.png691caf1746248a17f135911a748cdd8csize=1148date=2023-03-04T00:05:54
+shell/Taileo/surface11014.png4710aa373d7c3bd1dacc94c612632b2bsize=1131date=2023-03-04T00:06:06
+shell/Taileo/surface11015.png501187e36bba9844006a67ad2116b757size=1165date=2023-03-04T00:06:28
+shell/Taileo/surface11016.png4451ab6fb816a9301a797e893655bf3fsize=1171date=2023-03-04T00:06:44
+shell/Taileo/surface11017.pngbd252a1fc6faa145febf76565a650a63size=1169date=2023-03-04T00:06:56
+shell/Taileo/surface11018.png6524200d8576d7252752a5a22392cfacsize=1148date=2023-03-04T00:07:10
+shell/Taileo/surface11019.pngc7546c5d6dbbc320ae77e7ce73d8a615size=744date=2023-03-04T00:14:59
+shell/Taileo/surface1102.png75635319a0f33471f15ddf8b085167b8size=1128date=2023-03-03T23:30:34
+shell/Taileo/surface11020.png1d2bf91fa2ee89a273321ab8d5bb1d16size=799date=2023-03-04T00:15:07
+shell/Taileo/surface11021.pngfd247fb21b81190288958dc628d95f2csize=42281date=2023-04-20T23:25:10
+shell/Taileo/surface11022.pngb82c319037af3795cdb9a0ac8207273fsize=626date=2023-03-08T15:35:32
+shell/Taileo/surface11023.png98dea6d068afbf7d95fca5433cdb62d5size=785date=2023-03-08T15:35:45
+shell/Taileo/surface11024.png755754e6c3f5e8d863385b61bcf55c90size=42269date=2023-04-20T23:25:17
+shell/Taileo/surface11025.png5cbb003c32835d9f02ac89a442108d69size=820date=2023-03-08T15:46:49
+shell/Taileo/surface11026.png9ab5b8b101df70e8c9cc6f12f1eeb38csize=1089date=2023-03-08T15:46:54
+shell/Taileo/surface11027.png26c65a64d28dd6b021cac31061dfe238size=655date=2023-03-08T15:49:45
+shell/Taileo/surface11028.pngc62d20ab54f05244f1dae5598d4a4938size=661date=2023-03-08T15:49:54
+shell/Taileo/surface11029.pngac8725375941a5b8c71bc8b8659c8b4esize=42529date=2023-04-20T23:25:33
+shell/Taileo/surface1103.pngcec3aa345b201d97300dc63b92b66a76size=3550date=2023-03-04T00:02:04
+shell/Taileo/surface11030.png150744d102278287c91c73a8cd7ebd36size=872date=2023-03-08T15:59:21
+shell/Taileo/surface11031.png4d9e8a2fa66ce896e55ba0f452849710size=1121date=2023-03-08T15:59:27
+shell/Taileo/surface11032.png6f86e0b7e510a168b6f992d73434eeeesize=768date=2023-03-08T15:59:33
+shell/Taileo/surface11033.pngda293c1ae3dc9a2822c55553af670d17size=776date=2023-03-08T15:59:39
+shell/Taileo/surface11034.png5e2c9403e19a0810c12a1ee200d91562size=42762date=2023-04-20T23:25:41
+shell/Taileo/surface11035.png4913be335d05fb00cc02a0592c3bfe6asize=899date=2023-03-08T16:34:57
+shell/Taileo/surface11036.pngaa382c764aa0fb8d48dc9789b005c182size=1117date=2023-03-08T16:35:02
+shell/Taileo/surface11037.pngf27f8ee6befa621d66af96932a805236size=787date=2023-03-08T16:35:12
+shell/Taileo/surface11038.pnge6aa4b58e04608cd41df7eb7e38694a9size=854date=2023-03-08T16:35:18
+shell/Taileo/surface11039.png52fd0e211bfadac2f182cd275631cbc7size=42275date=2023-04-20T23:25:53
+shell/Taileo/surface1104.pngd063fbc86ee90fc83ba1a18997383e08size=3436date=2023-03-04T00:01:42
+shell/Taileo/surface11040.pngf7e112a8dc6f21cd2c42b5d18abde987size=52545date=2023-04-12T18:40:08
+shell/Taileo/surface1105.pngec666104dfe4c843828668ff90592056size=995date=2023-03-03T23:31:12
+shell/Taileo/surface1106.pngec666104dfe4c843828668ff90592056size=995date=2023-03-03T23:32:38
+shell/Taileo/surface1107.pnge18a7e350239e37a1c83b54de9dfd9fasize=1157date=2023-03-03T23:32:59
+shell/Taileo/surface1108.png27d5675d5a542f3450f643adc1bc5465size=1172date=2023-03-03T23:33:17
+shell/Taileo/surface1109.png51a952f79fa746f7a4093b280d27cee1size=1217date=2023-03-03T23:33:24
+shell/Taileo/surface1200.png37a33c8ece6d6cad8bba9704f1dcd11bsize=37356date=2023-03-12T17:10:56
+shell/Taileo/surface1201.png0c2b355e46d66b82e834854182de7411size=984date=2023-03-12T17:10:18
+shell/Taileo/surface1202.png0e43962cd34f47a0ba5dfb0864dba157size=1260date=2023-03-12T17:10:25
+shell/Taileo/surface1203.png582fe5cab8c19298c9ef0e978c5f91d5size=811date=2023-03-12T17:10:32
+shell/Taileo/surface1204.png4241967b1f94e5db188ad4b172cbc115size=844date=2023-03-12T17:10:37
+shell/Taileo/surface1205.png68cad3b5caf74cf373236a7420adffeesize=37356date=2023-03-12T17:25:21
+shell/Taileo/surface1206.pnga1faf5da2209cd1f5c7aeff7482d531fsize=992date=2023-03-12T17:25:38
+shell/Taileo/surface1207.png95e0a53010d78dfed745b59cef45f88esize=1003date=2023-03-12T17:25:44
+shell/Taileo/surface1208.pnga5f547e52b3c9ccedfa566dec72d1bc6size=516date=2023-03-12T17:30:19
+shell/Taileo/surface1209.png0bb74d82dc608f1ee168508a93d33b7bsize=707date=2023-03-12T17:30:26
+shell/Taileo/surface1210.pnga69c2f40597b1ce91ebb6a3839e12fcdsize=965date=2023-03-12T17:30:42
+shell/Taileo/surface1211.png08a8e603ecb34b3504ebd0be9e77cdc5size=997date=2023-03-12T17:30:50
+shell/Taileo/surface1212.pngfefeaf5170347155a9cb870274463d60size=1022date=2023-03-12T17:30:56
+shell/Taileo/surface1213.pnge6dceb52eb7f38bf6cbc217c53bfd7aasize=37258date=2023-03-12T17:54:45
+shell/Taileo/surface1214.png5e322afb6cb8b5f9b4e998642fe78668size=812date=2023-03-12T18:01:23
+shell/Taileo/surface1215.png8b0dc2552ab107d67a11fd81e35c0e05size=3359date=2023-03-12T18:16:56
+shell/Taileo/surface1216.png5a13cff2571b6e6956c43a6c0b8868fesize=6933date=2023-03-12T18:14:52
+shell/Taileo/surface1217.png0545aafc72868df8214f930d5a9560dcsize=48193date=2023-04-20T22:58:55
+shell/Taileo/surface1218.pngb000dcf8acc0f7b6ee187687a5aa41e6size=45018date=2023-04-20T22:59:59
+shell/Taileo/surface1219.png031b84e2b1e9c3458ccb67bbffbc1d17size=44568date=2023-04-20T23:00:12
+shell/Taileo/surface1220.pnge2a4f656ec7db50db6216e3e0db4134csize=38686date=2023-04-20T23:00:24
+shell/Taileo/surface1221.png1738d7b3c59bf4aa6605c35865428cb7size=40407date=2023-03-12T20:12:52
+shell/Taileo/surface1222.png237913633a75a876b450de9c619e683fsize=39653date=2023-03-12T20:13:01
+shell/Taileo/surface1223.png95ba4469927fa6143f937c9b6f21d985size=44022date=2023-04-20T23:00:38
+shell/Taileo/surface1224.png2198288c747bf4038ffb7435b550f7d3size=44012date=2023-04-20T23:00:42
+shell/Taileo/surface1225.pngdf269e9872dfb43feacce27e4e6a7f9csize=915date=2023-03-13T00:17:01
+shell/Taileo/surface1226.png303f7bf9650a0cf6dc4eeea65607fecdsize=1047date=2023-03-13T00:17:15
+shell/Taileo/surface1227.png8d61f535f1f182e90fcde2e9d59da6c1size=1031date=2023-03-13T00:17:24
+shell/Taileo/surface1228.png6ccb085012421cd71fe8dad78cc543cbsize=1316date=2023-03-13T00:17:30
+shell/Taileo/surface1229.pngd802cb2bc5909c2f346d7f7d8edcd202size=399date=2023-03-13T00:26:44
+shell/Taileo/surface1230.pnga145b26d68a24c555f7dc0be1ddad4a7size=43781date=2023-04-20T23:00:45
+shell/Taileo/surface1231.png01ec06f9d7b248ae741c5189c4a8f1eesize=1014date=2023-03-13T00:39:58
+shell/Taileo/surface1232.pngc7cdc07801cfd72269aa34dcd29b9ae8size=1081date=2023-03-13T00:40:04
+shell/Taileo/surface1233.pngb226d001c86b46a99576973e037b74desize=43780date=2023-04-20T23:00:48
+shell/Taileo/surface1234.png3df216dc1437520586f847a3edab580csize=44612date=2023-04-20T23:00:52
+shell/Taileo/surface1235.png38338d5bb95c3219fa2b1132bf8c675fsize=43884date=2023-04-20T23:00:56
+shell/Taileo/surface1236.pngd002b2ee05df895300aad018ebbec453size=44674date=2023-04-20T23:00:58
+shell/Taileo/surface1237.png30bf9f2c154d745273ceee0f4ead456bsize=40802date=2023-04-20T23:01:01
+shell/Taileo/surface1238.png920e3691886456bd6f3486b9ba39505csize=42311date=2023-04-20T23:01:22
+shell/Taileo/surface1300.png37abf94e857e7063b1ecd8927178ac3fsize=45796date=2023-04-21T00:16:26
+shell/Taileo/surface1301.png87eafb6c5834e4741754ec508d187670size=45837date=2023-04-21T00:16:29
+shell/Taileo/surface1302.pngb569b30f2048d745a0844e95298cc454size=1133date=2023-03-14T00:45:37
+shell/Taileo/surface1303.pngf46f87de5c6170f9fd34755efdd6925bsize=1164date=2023-03-14T00:45:45
+shell/Taileo/surface1304.png217c59c39be4254bc24ada5770ce83d3size=979date=2023-03-14T00:45:51
+shell/Taileo/surface1305.png3611e24ca0e3069a2caf73ade24a73a6size=1268date=2023-03-14T00:45:57
+shell/Taileo/surface1306.png453c799c961873c1e6951c711e553594size=41647date=2023-04-21T00:18:41
+shell/Taileo/surface1307.png76692163d0a8754c0c086cfff8b15ec5size=41673date=2023-04-21T00:18:45
+shell/Taileo/surface1308.png73ade5b182b728a5c6ca1badf96019a5size=45491date=2023-04-21T00:16:47
+shell/Taileo/surface1309.pnged59a51bdf185a6ea3fa2c8631d9a255size=45508date=2023-04-21T00:16:50
+shell/Taileo/surface1310.pngc62b11b7749ee4699d6ce063acffed26size=41355date=2023-04-21T00:18:51
+shell/Taileo/surface1311.png4e486e055a881cc412e30de41865cba3size=41372date=2023-04-21T00:18:55
+shell/Taileo/surface1312.pngde631590fd7207903f253ceac94ca226size=815date=2023-03-14T01:40:21
+shell/Taileo/surface1313.png1a1ae9adc71f2abbd9f700921d5b2138size=893date=2023-03-14T01:40:27
+shell/Taileo/surface1314.png12498064eaf569d473b10897cacc557csize=944date=2023-03-14T01:40:33
+shell/Taileo/surface1315.png6b5bc2376c42bf75c4d8207c1525d5b1size=1211date=2023-03-14T01:40:39
+shell/Taileo/surface1316.png2961d1fc72ed2860de4a57be31aa102asize=42314date=2023-04-20T23:02:20
+shell/Taileo/surface1317.pngce8c0081ce94d3264b79a505898794bfsize=41653date=2023-04-20T23:02:30
+shell/Taileo/surface1318.pngcc057fc9d260f962742ed780d1535d4asize=47933date=2023-04-20T23:02:41
+shell/Taileo/surface1319.pngbc66fbd6af5ad7b4abf650182087f41dsize=46745date=2023-04-20T23:02:48
+shell/Taileo/surface1320.pnga420519a5986c49ca90718c7b957d89csize=1141date=2023-03-14T18:23:27
+shell/Taileo/surface1321.png11b6606bbed770db8221711dd51d6c65size=1209date=2023-03-14T18:23:32
+shell/Taileo/surface1322.png4d6c504149e229e329b0725a510fb990size=41303date=2023-03-14T18:23:39
+shell/Taileo/surface1323.pngba6c8e8cc9282197ba3b264d52b336f9size=934date=2023-03-14T18:23:54
+shell/Taileo/surface1324.png5a32e9df55f3ae97b71aa72ac74ef3ddsize=1162date=2023-03-14T18:24:01
+shell/Taileo/surface1325.png78a67bcb605bec3defdb68fc728a1f19size=43797date=2023-04-25T18:57:39
+shell/Taileo/surface1326.png2c52da160aeccc8e858c86a68fc6ef58size=43543date=2023-04-25T18:58:03
+shell/Taileo/surface1327.png7b36a7f0917ffbbaaaeb30ae96c71ca5size=40141date=2023-04-25T17:22:13
+shell/Taileo/surface1328.png7eef13374a554a2f76f950ebde26fb7bsize=33332date=2023-04-25T17:22:19
+shell/Taileo/surface1329.pngcca2784ae270b521eed62970bb3869fesize=38326date=2023-04-25T17:22:38
+shell/Taileo/surface1330.pngf0d344339e44e77def61d8bda6efd6e2size=35751date=2023-04-25T17:23:05
+shell/Taileo/surface1331.png6b3a1863621391d48f37f16a24c0f88bsize=31255date=2023-04-25T17:23:11
+shell/Taileo/surface1332.png30022dc9b042c6992f4f35d22d3fdd0asize=36096date=2023-04-25T17:23:27
+shell/Taileo/surface1333.png03af8985c0e200f69592592716686631size=36164date=2023-04-25T18:58:50
+shell/Taileo/surface1334.png0ed8abfe5201b61565a02913f7e81515size=30547date=2023-04-25T18:59:01
+shell/Taileo/surface1335.pngd1632650e1de6457717cb5430c8a144asize=27299date=2023-04-25T19:02:29
+shell/Taileo/surface1336.pngd1d5d5d02884ad4252af29c90a02b54asize=27595date=2023-04-25T19:02:53
+shell/Taileo/surface1337.png85a9826e79463d7b765b166412204650size=27710date=2023-04-25T19:03:16
+shell/Taileo/surface1338.png8285a93afccff86d2cbe6289196156c5size=27135date=2023-04-25T19:03:39
+shell/Taileo/surface1339.pngeb9dba44e61b6c5b024ebc938041cfedsize=25309date=2023-04-25T19:03:48
+shell/Taileo/surface1340.png1341d9f238e5cb875394af59de7e5e1csize=25354date=2023-04-25T19:06:08
+shell/Taileo/surface1341.pngbdbd31589f1f4db669aaf5cd75c44504size=25338date=2023-04-25T19:25:57
+shell/Taileo/surface1342.png470c13a464c7e5b6c3df2bbf2afc1188size=25321date=2023-04-25T19:26:01
+shell/Taileo/surface1343.png9a507080b9016ec31c55298eb708bdf7size=1153date=2023-04-25T17:40:36
+shell/Taileo/surface1344.png323a56ee4090995acac67ee80a906ae8size=24641date=2023-04-25T17:41:35
+shell/Taileo/surface1345.png6d4ab3bbc54530b0b4adb2336a802bc5size=24693date=2023-04-25T17:47:45
+shell/Taileo/surface1346.png2c83e0f99866154cf05d8e484cc69340size=559date=2023-04-25T17:50:00
+shell/Taileo/surface1347.png2cb6d49b5a8fdb677849c70a6b568053size=799date=2023-04-25T17:50:06
+shell/Taileo/surface1348.png4ad933f4290d3bdd1ed9190d57941b51size=659date=2023-04-25T17:57:31
+shell/Taileo/surface1349.png69cfec08382c2445e2604243223add5bsize=825date=2023-04-25T17:57:38
+shell/Taileo/surface1350.png1e9cfea13ff7dd26228098679bfe561dsize=25296date=2023-04-25T20:28:45
+shell/Taileo/surface1351.pngc2620c53f9e6cea21f0634d19684a1casize=26674date=2023-04-25T20:28:48
+shell/Taileo/surface1352.png039ea94aa9b30196f0e29efebac2584csize=26611date=2023-04-25T19:17:30
+shell/Taileo/surface1353.png5a7c3cd081bd0d148f4575d5f0cc5082size=27953date=2023-04-25T19:26:09
+shell/Taileo/surface1354.png2a9fd347b4007e723e052e6319d3dad0size=28989date=2023-04-25T19:26:12
+shell/Taileo/surface1355.png2f464abf88b33549069306f651e88792size=29182date=2023-04-25T19:26:16
+shell/Taileo/surface1356.pngfea4074c9948788dd69bcabd7c6a78ccsize=2236date=2023-04-25T19:11:13
+shell/Taileo/surface1357.pngdad4c1d8e76eeb3062911ac67496a480size=25768date=2023-04-25T20:32:20
+shell/Taileo/surface1358.png24a26de60afd9a380d2210798a7247a9size=25161date=2023-04-25T20:32:18
+shell/Taileo/surface1359.pngfef04ee2c3786e5d3a97384b5c979c42size=25163date=2023-04-25T20:32:15
+shell/Taileo/surface1360.png1cc45ce29300f7e80fe95cbb2243d09dsize=28404date=2023-04-25T20:32:12
+shell/Taileo/surface1361.pngf610ad0daaa3be24faea9e36356c7b45size=27813date=2023-04-25T20:32:09
+shell/Taileo/surface1362.pngc8f951365ab797b8c8c269eeec14469asize=27805date=2023-04-25T20:32:06
+shell/Taileo/surface1363.png0ee62bdfdf537f08db9d79f214efe7f1size=25797date=2023-04-25T20:32:03
+shell/Taileo/surface1364.pngc29467446539ff855ee618fb56504d3dsize=25195date=2023-04-25T20:32:00
+shell/Taileo/surface1365.png58b5c95e4913df85404e805786c5ed67size=25189date=2023-04-25T20:31:58
+shell/Taileo/surface1366.png7cb65a3e9cab6543104fdbaca3fe1643size=25778date=2023-04-25T20:31:55
+shell/Taileo/surface1367.pngec61f4c978bb4da00ddb4a61df78bfe4size=25176date=2023-04-25T20:31:52
+shell/Taileo/surface1368.pngfa62f29d2bd451667a90cf59ce7dc882size=25170date=2023-04-25T20:31:50
+shell/Taileo/surface1500.png7b4e4bbca32b0729d8acdbfb8ffd59d2size=44854date=2023-04-15T22:39:28
+shell/Taileo/surface1501.pngfd47a1940a0651d6b9411660c97b7886size=2289date=2023-04-15T22:43:29
+shell/Taileo/surface1502.pngfdcf1de145ef5e12ec3cb4d9b46adc3csize=2697date=2023-04-15T22:43:59
+shell/Taileo/surface1503.pngd37c450ce57c9938baf5a00e694bda52size=2325date=2023-04-15T22:44:11
+shell/Taileo/surface1504.png7df607652d638a3f219ed4c8a53c27c4size=2682date=2023-04-15T23:19:23
+shell/Taileo/surface1505.png946c7115af8d385b0f86461e0c37b6adsize=2250date=2023-04-15T22:32:54
+shell/Taileo/surface1506.png344c2d4d329cc2daaf5adc088c7e1cc0size=2306date=2023-04-15T23:01:11
+shell/Taileo/surface1507.png156493da4975728ff52fe9b2d88e6352size=2392date=2023-04-15T23:01:18
+shell/Taileo/surface1508.pngd466dac5e9790a5a6fbf705529985772size=2153date=2023-04-15T23:14:30
+shell/Taileo/surface1509.pngf5607046a722388c77249275a396bea4size=2416date=2023-04-15T23:15:42
+shell/Taileo/surface1510.png858bce911897df3b6c7062fd47a63dd1size=2013date=2023-04-20T20:14:06
+shell/Taileo/surface1511.png7b7aa765b3eb6d75e93d5d00d83a0eacsize=2108date=2023-04-20T20:14:12
+shell/Taileo/surface1512.pnge088e1088cfdee3d57ddb73ffa128125size=1999date=2023-04-20T20:14:18
+shell/Taileo/surface1513.pngf099e9d28e511ff985d88fb8188e6259size=2099date=2023-04-20T20:23:30
+shell/Taileo/surface1514.pnga116267dedfac859d57484a8108847c5size=1933date=2023-04-20T20:18:18
+shell/Taileo/surface1515.pngad3e159b63da900d2e96bd79851bd55dsize=1930date=2023-04-20T22:31:11
+shell/Taileo/surface1516.png21bb4bdacb0e3069804a05c20c615e46size=1888date=2023-04-20T22:31:18
+shell/Taileo/surface1517.png6959934bd49bb3781a7927e97055d6f7size=1989date=2023-04-20T22:31:26
+shell/Taileo/surface1518.pngf88d21901dbe24b9247bfc89528b96basize=1326date=2023-04-20T23:45:03
+shell/Taileo/surface1519.png62f67b56cb35da0b408fc3fe5625912dsize=1373date=2023-04-20T23:44:04
+shell/Taileo/surface1520.pngdcb4f4093785dff05dc8b9bd6c713ef4size=1802date=2023-04-21T00:05:36
+shell/Taileo/surface1521.png25f4f3ce52fa30d15cc22ddd038ce6easize=1845date=2023-04-21T00:05:43
+shell/Taileo/surface1522.png765ca619729b2231c3679078b77ee1ffsize=1952date=2023-04-21T00:06:11
+shell/Taileo/surface2.png4702257ed329f86f745b02ea7486f56dsize=48007date=2023-02-21T01:19:37
+shell/Taileo/surface2001.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:07
+shell/Taileo/surface2002.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:12
+shell/Taileo/surface201.png61ff20e282d84624b263fe1a44a347adsize=1142date=2023-02-21T01:24:15
+shell/Taileo/surface202.png36a2020d26ebd8f26b3c1cac2581d8adsize=786date=2023-03-02T00:23:38
+shell/Taileo/surface203.pngffe8882387ab8bf9f0923eeb14354f1asize=883date=2023-03-02T00:23:29
+shell/Taileo/surface204.png5c3a741fb47930b4c70da370323895c2size=933date=2023-02-21T01:23:52
+shell/Taileo/surface2501.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:22
+shell/Taileo/surface2502.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:28
+shell/Taileo/surface2503.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:33
+shell/Taileo/surface2504.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:40
+shell/Taileo/surface2505.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:46
+shell/Taileo/surface2506.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:51
+shell/Taileo/surface2507.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:41:58
+shell/Taileo/surface2508.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:42:03
+shell/Taileo/surface2509.pnge1dbebe47b8e24c2da1d33b57425adc2size=255date=2023-02-20T21:42:11
+shell/Taileo/surface3.pnge2bb01801c3a3e0925d8d6dcc4754ba7size=44180date=2023-04-20T22:30:19
+shell/Taileo/surface301.png8663127b10472fc37734f9801343dfe2size=1135date=2023-02-23T20:13:11
+shell/Taileo/surface3010.png4c0d5b141a5e6ebf9d042f7d18f776acsize=748date=2023-03-02T01:14:16
+shell/Taileo/surface3011.pngcb744fed8d542fd177434ceef27e4731size=709date=2023-03-02T01:14:23
+shell/Taileo/surface302.png7a303e2e46f96a51921709ab9dc519e9size=921date=2023-02-23T20:15:41
+shell/Taileo/surface303.png0651579fe1a0e89e5c1676d79dcc2ae3size=979date=2023-02-23T20:16:50
+shell/Taileo/surface304.pnge873423316723a23cb02e4dbf7ec8dd5size=961date=2023-02-23T20:12:00
+shell/Taileo/surface305.pngda2d5c8a33edbdbceae1ce26b41dcde7size=48306date=2023-02-23T20:18:02
+shell/Taileo/surface306.png879ce7d79ba90e98e27d6223db685a2csize=48318date=2023-02-23T20:18:24
+shell/Taileo/surface307.png5cb06a64f081ac3a6412e6b95977fd3asize=44644date=2023-04-20T22:44:56
+shell/Taileo/surface308.png8310392c22a383f3746669a3b72c57c3size=824date=2023-03-02T01:10:28
+shell/Taileo/surface309.png6f5f4f02c52f98a6525c40676a6ed564size=1186date=2023-03-02T01:10:40
+shell/Taileo/surface4.png8194c35a37d921364044eb5645650f4asize=48389date=2023-02-23T19:54:45
+shell/Taileo/surface401.png43d7730c9d736e2004fb2401b6a5f273size=13419date=2023-02-27T00:43:02
+shell/Taileo/surface4010.pnga29082b256012f0370d971182fc0f8cesize=44851date=2023-04-20T23:03:04
+shell/Taileo/surface4011.png58a22b7ebeb6501c94f25c8c16def42esize=49679date=2023-04-20T23:03:08
+shell/Taileo/surface4012.png006442b9dfbb9a75c02a6b949436d940size=43947date=2023-04-20T23:05:08
+shell/Taileo/surface4013.png84d156af9d3c776272b2d56e8a3c9be0size=49451date=2023-04-20T23:06:14
+shell/Taileo/surface4014.png8e93f90ed827c9f30285393ef34a624esize=47302date=2023-04-20T23:07:07
+shell/Taileo/surface4015.png88eefc3bdb521ffb80dd4fbcaf11baa9size=47703date=2023-04-20T23:07:19
+shell/Taileo/surface4016.png576b0e42a2752d6168f93ee341ed6780size=46174date=2023-04-20T23:07:34
+shell/Taileo/surface4017.png36c1240fb4ebe7047fb8cd62da7cb993size=48389date=2023-02-26T23:49:01
+shell/Taileo/surface4018.pnga29082b256012f0370d971182fc0f8cesize=44851date=2023-04-20T23:08:30
+shell/Taileo/surface4019.png4702257ed329f86f745b02ea7486f56dsize=48007date=2023-02-26T23:56:12
+shell/Taileo/surface402.png6f4540ff7af02c350935586e4146240bsize=13948date=2023-02-27T00:43:13
+shell/Taileo/surface4020.png8a392ee1b83071977638fbb15438e3e4size=44181date=2023-04-20T23:08:42
+shell/Taileo/surface4021.pngc35b66fcae2d24be8f2270bc0c4443a8size=39801date=2023-04-20T23:08:49
+shell/Taileo/surface4022.png58a22b7ebeb6501c94f25c8c16def42esize=49679date=2023-04-20T23:08:53
+shell/Taileo/surface403.png7477a94b74f39398a42bb5517c4d5d9fsize=15570date=2023-02-27T00:43:39
+shell/Taileo/surface404.png0478b04f379fe4474abe79e17b573cfcsize=17485date=2023-02-27T00:43:46
+shell/Taileo/surface405.png0061b258c3930766e54d149cbfe74fa0size=13994date=2023-02-27T00:43:54
+shell/Taileo/surface406.png3f7fe3b2984033b896cf8ca8c0bab88asize=9916date=2023-02-27T00:44:01
+shell/Taileo/surface407.pngcd80143d4c531911d3839113708b6f57size=9701date=2023-02-27T00:44:09
+shell/Taileo/surface408.pngf02dc61b6c5a9f90e0ad549c01c6fc57size=42683date=2023-04-20T22:45:27
+shell/Taileo/surface409.png2acdf81811df2860faddd6cfa0101c32size=43587date=2023-04-20T22:45:30
+shell/Taileo/surface501.png83b19b80c004aec214cb2e1d0dc36ea7size=7470date=2023-02-27T00:31:34
+shell/Taileo/surface502.png75a1a88b0d367ba535b889d252e0fad5size=7371date=2023-02-27T00:31:43
+shell/Taileo/surface503.png494972eca795620b0c2d83881917318bsize=9335date=2023-02-27T00:31:50
+shell/Taileo/surface504.png145d0d2eecb5557034dad38f384ebc30size=8136date=2023-02-27T00:31:57
+shell/Taileo/surface505.pngc6104af37ca1734662a55d390f73a32bsize=8041date=2023-02-27T00:32:14
+shell/Taileo/surface506.pngdf1e37937ee59ea235abf0fbf32f9b55size=9114date=2023-02-27T00:34:20
+shell/Taileo/surface507.pnga29082b256012f0370d971182fc0f8cesize=44851date=2023-04-20T22:45:34
+shell/Taileo/surface508.pngf0df541487a653f13b35d81237b6637bsize=40803date=2023-04-20T22:45:37
+shell/Taileo/surface510.png5f78376a2f25c5086c5c5f8968a4769esize=44780date=2023-04-20T22:45:49
+shell/Taileo/surface511.pngf099b0a1f49b657ce1471c3d6c9e2c4fsize=44046date=2023-04-20T22:45:53
+shell/Taileo/surface512.png70ead9d7edfb70dd4fb1d0e127c6acdbsize=44823date=2023-04-20T22:45:56
+shell/Taileo/surface513.png1a2d06b592cbd88ba4fdf903a2cad94dsize=40933date=2023-04-20T22:45:59
+shell/Taileo/surface514.png543c804e38d745e9f789787a51ffa772size=829date=2023-03-10T18:11:57
+shell/Taileo/surface515.pngf169f85e77e2e4ab6b72aaff2c287163size=841date=2023-03-10T18:12:02
+shell/Taileo/surface516.pngfa252016d4675c8d79cf8d8cb27f9cb2size=44825date=2023-04-20T22:46:03
+shell/Taileo/surface517.pngb90f2de59badeaa2dfb53974733d1344size=40533date=2023-04-20T22:46:07
+shell/Taileo/surface518.png9f68a057c8d984ba67323a20e8a0443dsize=44092date=2023-04-20T22:46:10
+shell/Taileo/surface519.png7dc6e33622c5693cc4530409ee874ca0size=44874date=2023-04-20T22:46:14
+shell/Taileo/surface520.png1bc6423b60e6042419ed479bd70a7c9asize=42841date=2023-04-20T22:46:17
+shell/Taileo/surface521.pnga6b38326f609eb48209e73b63dcea651size=820date=2023-03-10T18:14:54
+shell/Taileo/surface522.png6c1ee0d270f217d4bea05894706533aesize=871date=2023-03-10T18:14:59
+shell/Taileo/surface523.pnge4a4e3cf26e618d5223a403ec8d773b2size=909date=2023-03-10T18:15:05
+shell/Taileo/surface524.pngf34a25cfb7e8d1f6e2454f730cf317e9size=1056date=2023-03-10T18:15:10
+shell/Taileo/surface525.png4221d4e02b7ad58f269d11e3a42e6f5fsize=42658date=2023-04-20T22:46:36
+shell/Taileo/surface526.pngaa2a5356018dbc7055d62b7e12c30178size=44664date=2023-04-20T22:46:39
+shell/Taileo/surface527.png13c88f5dc7f972d9a5d94f9e975c222esize=43889date=2023-04-20T22:46:42
+shell/Taileo/surface528.png4d7dc5baf0d9242cc3910a572490fd06size=44593date=2023-04-20T22:47:04
+shell/Taileo/surface529.png85de72d4507dd69ea279df94d025c431size=978date=2023-03-10T18:48:06
+shell/Taileo/surface530.pngd01c68d05d0edb6abdd1d63112c6981esize=999date=2023-03-10T18:48:14
+shell/Taileo/surface531.png69e8240a9b46873ba50f1874c8ec0e97size=44616date=2023-04-20T22:47:09
+shell/Taileo/surface532.pngc9438f0524a56a82d4cb42996dea74b1size=42686date=2023-04-20T22:47:12
+shell/Taileo/surface533.png69e8240a9b46873ba50f1874c8ec0e97size=44616date=2023-04-20T22:47:15
+shell/Taileo/surface534.png6742230f612bd83ecdf6c9228a245178size=43916date=2023-04-20T22:47:19
+shell/Taileo/surface535.png35c1376c7621409e0d4ae00fa55819f9size=44695date=2023-04-20T22:47:24
+shell/Taileo/surface536.png8a24da29f0795c9e6c014ee005e3d48csize=44470date=2023-04-20T22:47:29
+shell/Taileo/surface537.png6a6b4859ec415179970bbacbb1fd0dffsize=44541date=2023-04-20T22:47:33
+shell/Taileo/surface538.pngb66b9b294cb3c8fd6e1c025e0137db14size=43760date=2023-04-20T22:47:36
+shell/Taileo/surface539.png50bf3d76b2c19279b7bb4d36182bc8a5size=728date=2023-03-10T20:10:58
+shell/Taileo/surface540.png15ddc3def4a9a459785a63f34c1951e8size=1048date=2023-03-10T20:11:05
+shell/Taileo/surface541.png278a6a2220a03bd3888cb22914dcc3casize=771date=2023-03-10T20:11:13
+shell/Taileo/surface542.png8b083d67c199d2d3b27a0387f2478bd3size=792date=2023-03-10T20:15:30
+shell/Taileo/surface543.png92ff619dddad5e83066aee9e8c1980f4size=44097date=2023-04-20T22:47:39
+shell/Taileo/surface544.pngf9ece308ad1752aeb0ed89ebc8aebc1fsize=865date=2023-03-11T00:07:25
+shell/Taileo/surface545.pngdc39a7f79c0a4720a5405cf3828a345dsize=1117date=2023-03-11T00:07:31
+shell/Taileo/surface546.png12264b5a0ac1d8e3a98917d32f4d5e40size=917date=2023-03-11T00:07:37
+shell/Taileo/surface547.png92fc0c3aa5f29b317b3e37423e1ccd81size=928date=2023-03-11T00:23:31
+shell/Taileo/surface601.pngb45bc8f0778ede9e290c62485c800504size=1097date=2023-02-26T22:36:46
+shell/Taileo/surface6010.png04d16ac68970f9f655badb3ee650b356size=44952date=2023-04-20T23:08:57
+shell/Taileo/surface6011.png44c73ef25dc98955e1848dd73ad70870size=44155date=2023-04-20T23:09:00
+shell/Taileo/surface6012.pngee1bd5064daeefb0dd838231b306ae99size=44286date=2023-04-20T23:09:08
+shell/Taileo/surface6013.png6884ad7c3462b5009c492aaddf3b09afsize=43484date=2023-04-20T23:09:12
+shell/Taileo/surface6014.png55e136a7bb5a71bcc9fe754d3e481d6esize=40381date=2023-04-20T23:09:15
+shell/Taileo/surface6015.pnga0cf6d1c4f85cbba15608b23176d44f1size=40875date=2023-04-20T23:09:18
+shell/Taileo/surface6016.pnge33f42f97350bc7aa0ab596ef8cedfb1size=41072date=2023-04-20T23:09:23
+shell/Taileo/surface6017.pngc8992e302e50424c2a303deb39f1b7b4size=44507date=2023-04-20T23:15:13
+shell/Taileo/surface6018.pngc18776b5d9ff4e288edf16d84106a43bsize=50398date=2023-04-20T23:15:53
+shell/Taileo/surface6019.png3d34016d5d6f7299e4f3cca392956d0dsize=44758date=2023-04-20T23:15:18
+shell/Taileo/surface602.pngde235ac246bca2bfc4db9314612a3c05size=835date=2023-02-26T22:33:34
+shell/Taileo/surface6020.png90ea8ab734dcb0aa8105179b41aae1d8size=48451date=2023-04-20T23:15:58
+shell/Taileo/surface6021.png884584ad9e40eca2babe1e61d8f49a2bsize=44476date=2023-04-20T23:16:10
+shell/Taileo/surface6022.png31d21a3eae5556893138e7c6730f7782size=539date=2023-03-04T13:36:28
+shell/Taileo/surface6023.pngb06ee9f039b96cf20720b5e44c701fd3size=589date=2023-03-04T13:36:20
+shell/Taileo/surface6024.pngf1f7195fce4c51c2c1d8f63552889778size=960date=2023-03-04T13:38:41
+shell/Taileo/surface6025.png2a1b4c5cc2e6391b891938488de32ff2size=1327date=2023-03-04T13:38:51
+shell/Taileo/surface6026.png1b8b5be7687085168fbefef2965a3bc1size=44735date=2023-04-20T23:17:43
+shell/Taileo/surface6027.pngbee2ec3f43a15546c2c40a5ea155b845size=44510date=2023-04-20T23:18:45
+shell/Taileo/surface6028.png5d20017519f4da7c4a15dfbccd3bcf8asize=835date=2023-03-04T13:43:57
+shell/Taileo/surface6029.pngb79f3e9a848ce7d43a9f6ce3cbe5c6e3size=844date=2023-03-04T13:44:05
+shell/Taileo/surface603.png48bbf5a7f68edea0d3b15b66cb05c8c6size=889date=2023-02-26T22:34:19
+shell/Taileo/surface6030.pngde62c2790813c4570cb7688570ffb642size=44244date=2023-04-20T23:18:48
+shell/Taileo/surface6031.pngc9f0d198955941e57622854d8ac80b94size=48148date=2023-04-20T23:18:00
+shell/Taileo/surface6032.png590fe56b534670c740367ee00feb9aaesize=48197date=2023-04-20T23:18:34
+shell/Taileo/surface6033.png0108c6071fd155f60043063d51b35a37size=48376date=2023-04-20T23:18:37
+shell/Taileo/surface604.pngb28e17a68b2019e1dee513d8824532d9size=897date=2023-02-26T22:38:55
+shell/Taileo/surface605.png84d2d43604eef5cc27cef3683714f79dsize=40966date=2023-04-20T22:47:59
+shell/Taileo/surface606.pnga120ac6ad0e6095bc78ac65d13f69720size=40950date=2023-04-20T22:48:05
+shell/Taileo/surface607.png13c708b8f61f15c18b5798cf25e16d9dsize=44905date=2023-04-20T22:48:08
+shell/Taileo/surface608.png3db6c7fa9cdb97324cd16d0fe873f959size=44847date=2023-04-20T22:48:11
+shell/Taileo/surface609.pngdf0a2b5225000ef31fc073058110b296size=41516date=2023-04-20T22:48:14
+shell/Taileo/surface701.pnga0e96224c9b9d40a74f984dc2457bdebsize=800date=2023-02-26T22:49:55
+shell/Taileo/surface7010.png030a0ca0327d2cc5f73d8e9feae5d406size=948date=2023-03-01T22:57:20
+shell/Taileo/surface7011.png2ec0ffd627179ff81403f14f855ed955size=1068date=2023-03-01T22:57:34
+shell/Taileo/surface7012.png826e84570fc07c93cdf026db2a21780bsize=44834date=2023-04-20T23:19:29
+shell/Taileo/surface7013.pngd2878210c358a5a14ee61c959b06fab8size=45438date=2023-04-20T23:19:38
+shell/Taileo/surface7014.pngb9140e5673b7cbe7f939a7035b074042size=45332date=2023-04-20T23:19:43
+shell/Taileo/surface7015.png805bfb92d6bf253d669d2da2b4eb398bsize=44173date=2023-04-26T02:12:03
+shell/Taileo/surface7016.png53861251eb2c434037e444ff4b061faesize=45025date=2023-04-20T23:20:48
+shell/Taileo/surface7017.png61a91b7b22002a909c8f7938f294ab51size=48818date=2023-04-20T23:21:05
+shell/Taileo/surface7018.pngd066916b9ba4c5824306c10680d1444dsize=48898date=2023-04-20T23:21:20
+shell/Taileo/surface7019.pnge796cc984ba60e904e065705de0772d0size=8712date=2023-03-04T14:49:11
+shell/Taileo/surface702.png1f353d6c719328a629213d90ee14abb3size=801date=2023-02-26T22:51:00
+shell/Taileo/surface7020.pngc5cafb0bbde2237c716c7d64484e7128size=8864date=2023-03-04T15:19:08
+shell/Taileo/surface7021.png2b9aa2680944957a20407e41e1527816size=40318date=2023-04-20T23:21:40
+shell/Taileo/surface7022.png1bf9c858a21dcf3097656d2a6c49c902size=813date=2023-03-04T15:23:37
+shell/Taileo/surface7023.pngbe77bc1581916cba5b170774f490c94asize=843date=2023-03-04T15:13:36
+shell/Taileo/surface7024.png0870bab0114bcbdde50ad80bb0819abdsize=40613date=2023-04-20T23:21:44
+shell/Taileo/surface7025.pnge7527e8370c7c6b3214fe3b2166230c9size=40294date=2023-04-20T23:21:48
+shell/Taileo/surface7026.pngb835c0464835d14371e2aec51df53fc7size=771date=2023-03-04T15:38:46
+shell/Taileo/surface7027.png39bb4ebc0f69e3f2676ecd55ade41b73size=40609date=2023-04-20T23:21:50
+shell/Taileo/surface7028.pngc59f8b5fd69c9ba2c7391f0ac9a7cb00size=44635date=2023-04-20T23:22:00
+shell/Taileo/surface7029.pngc801f427c4b8e05c3b98e81fee7d31d8size=706date=2023-03-04T15:51:56
+shell/Taileo/surface703.png3bac338eaf1d2f4a0bdf7e579cd59335size=802date=2023-02-26T22:52:14
+shell/Taileo/surface7030.png27135e19071d175b6a05fb9d67ffb3e2size=716date=2023-03-04T15:52:04
+shell/Taileo/surface7031.png922c9dfca3c9087e64a969f7d4fe4e92size=44581date=2023-04-20T23:22:33
+shell/Taileo/surface7032.pngb271ed50669a0abbc3679c94fe15e6d8size=43846date=2023-04-20T20:13:17
+shell/Taileo/surface7033.pnge3d9c31667b015c368433ba686b17906size=43927date=2023-04-20T23:23:28
+shell/Taileo/surface7034.png62f68421a9d15508ed72a354dab399edsize=44782date=2023-04-20T23:22:48
+shell/Taileo/surface7035.pngc4919f3c15587920cf34f331a367153csize=986date=2023-03-04T16:47:03
+shell/Taileo/surface7036.png5c95780814ccd24a591b750ed4bf3a95size=1214date=2023-03-04T16:47:09
+shell/Taileo/surface7037.pngfbce31db98c609f4a84e9ef5a52c083dsize=1973date=2023-03-04T16:47:20
+shell/Taileo/surface7038.png8fbcca1a9f9b280f0e45ed5950d63253size=2017date=2023-03-04T16:47:29
+shell/Taileo/surface7039.pnge6091133c3037488b962e74251dcbf6esize=44066date=2023-04-20T23:22:51
+shell/Taileo/surface704.png2763521e19a9ab4dd93259c172d2fabesize=708date=2023-02-26T22:49:04
+shell/Taileo/surface7040.png7ef0c1d65ab1ca9b64f03f94ab01f8fesize=44897date=2023-04-20T23:22:53
+shell/Taileo/surface7041.png92458d5fe119fc602df6b12cc91e43c0size=40949date=2023-04-20T23:22:56
+shell/Taileo/surface7042.png87ec752079ab07d75e12c67378ca106dsize=43603date=2023-04-20T23:22:59
+shell/Taileo/surface705.png493990e42c0c5d231960a41f2099de18size=42480date=2023-04-20T22:49:07
+shell/Taileo/surface706.png6fd065edfe850d93cf07802d5a246c86size=49743date=2023-04-20T22:49:42
+shell/Taileo/surface707.pngf7e2488090fd9311810fdf6310606ea5size=46696date=2023-03-01T22:56:42
+shell/Taileo/surface708.pngcc1febd558268c099f3f1cef6a498534size=45390date=2023-04-20T22:52:21
+shell/Taileo/surface709.png39214ea92c4e968ad26b4ee89efc4424size=41994date=2023-04-20T22:52:31
+shell/Taileo/surface800.png7f973d3fecaf81328df226ed2973f328size=45144date=2023-04-20T22:52:59
+shell/Taileo/surface801.pnge386107ea46e8bfcd5d22f70d3518660size=1141date=2023-02-27T23:08:44
+shell/Taileo/surface802.png96fe461396e85647401bb20a302aa42dsize=697date=2023-02-28T22:13:03
+shell/Taileo/surface803.png416624d37c046a9c34e462afadcb93a9size=721date=2023-02-28T22:13:10
+shell/Taileo/surface804.png67a19d449913d4d7f533c9cf9a12a1bfsize=868date=2023-02-27T23:08:37
+shell/Taileo/surface805.pngdbd54fa458ff7b523e8f763201fe2c45size=45062date=2023-04-20T22:53:03
+shell/Taileo/surface806.png8a5b28d1fc8e4b5c9a391ea28e8ac5d2size=44585date=2023-04-20T22:53:22
+shell/Taileo/surface807.pngacf4d05558686334e5b5bd5e07d7b840size=605date=2023-03-01T01:05:57
+shell/Taileo/surface808.png880d51a9833229ad0483b4ba3c81d45bsize=688date=2023-03-01T01:06:08
+shell/Taileo/surface809.png5bc5d6faaa3b26955e5a7b8a7e3df35fsize=42618date=2023-03-02T00:31:10
+shell/Taileo/surface900.pngf1a838d77aab0abc75fb12b2f9bd5adbsize=44265date=2023-04-20T22:58:05
+shell/Taileo/surface901.pngfde540e2ed7784e36c84e54f4c01903asize=636date=2023-03-03T00:42:28
+shell/Taileo/surface9010.png24af2ec8df7a8a43b83190cd3383baa7size=44435date=2023-04-20T23:23:08
+shell/Taileo/surface9011.png0e65f4c032f1259dfaea1950e9748c13size=1310date=2023-03-03T01:31:54
+shell/Taileo/surface9012.png327de6f4e0959b833e0eb73ff5f0820asize=1081date=2023-03-03T01:32:25
+shell/Taileo/surface9013.png6c32ede9936bc459b8adc15a83c80bfasize=44128date=2023-04-20T23:23:13
+shell/Taileo/surface9014.png0d3785849005e045abeb03b74f8b06e4size=1355date=2023-03-03T13:23:30
+shell/Taileo/surface9015.png8498a4b171404a14cef2c76005be41f1size=1218date=2023-03-03T13:23:21
+shell/Taileo/surface9016.pngd82449ba958f723526393b1814cdbcb0size=42454date=2023-03-03T15:28:02
+shell/Taileo/surface9017.pngb6f36c28a40e1cd3c20d7accce50e2efsize=42500date=2023-03-03T15:34:05
+shell/Taileo/surface9018.png616588773e0e5b6c6aa902f3e1770799size=42467date=2023-03-03T15:33:53
+shell/Taileo/surface9019.pngcf188edb44b38128f1924a81084dcbb6size=42081date=2023-03-03T17:34:20
+shell/Taileo/surface902.png043ed93bac0252d99fc86383b6d76a06size=878date=2023-03-03T00:44:17
+shell/Taileo/surface9020.pnge7ad1976a4c4605283dc605cea4303ecsize=55448date=2023-03-03T17:35:31
+shell/Taileo/surface9021.png98eb4b20303862d7c0e09fe5943e1c7esize=62541date=2023-03-03T17:35:58
+shell/Taileo/surface9022.png1eb57c0f2e55a843c854eebe3ecdce87size=65160date=2023-03-03T17:56:02
+shell/Taileo/surface9023.png2992bfa925a506159a18a4e7f707772esize=65855date=2023-03-03T17:58:53
+shell/Taileo/surface9024.pngc862cde70ab22b453f54c6f570c98f12size=65902date=2023-03-03T17:59:10
+shell/Taileo/surface9025.pnge35e488ddd93cb90d6b4d646ee442a19size=65781date=2023-03-03T17:59:21
+shell/Taileo/surface9026.pnge34725a519604b7da06a52aca6ebbcc8size=44196date=2023-04-20T23:24:01
+shell/Taileo/surface9027.png32063727c8a41c7f92bf813f4d3eb8cesize=42049date=2023-04-20T23:24:10
+shell/Taileo/surface9028.png38161c064ac7f7b93e9b8e326fd48611size=42066date=2023-04-20T23:24:16
+shell/Taileo/surface9029.pngf38e0e0b8e0b14c72634c6f0ec4bcfb5size=41897date=2023-04-20T23:24:20
+shell/Taileo/surface903.pngce17774761782eb4f5a96426be0a17b6size=44508date=2023-04-20T22:58:08
+shell/Taileo/surface904.png1af4d2572f8f65654eb52d24e9bbb5f7size=44697date=2023-04-20T22:58:11
+shell/Taileo/surface905.png501ed3560848245e22c3b8b6f592062fsize=44227date=2023-04-20T22:58:14
+shell/Taileo/surface906.pnga6285d0b349a7a2c7a4c9501681720b1size=44252date=2023-04-20T22:58:17
+shell/Taileo/surface907.png0b1b139f860733893d372a707419b29fsize=44236date=2023-04-20T22:58:20
+shell/Taileo/surface908.png25bd1f6074536e1313ddd041432b6b01size=44199date=2023-04-20T22:58:23
+shell/Taileo/surface909.png0c9377448c9339a47820db63bcbc6cb7size=42475date=2023-04-20T22:58:39
+shell/Taileo/surface9999.pnga6ed40d5023032b2327f54bb961caeecsize=42610date=2023-04-20T23:25:06
+shell/Taileo/surfaces.txt3a8dae715480f24005fdafffc7a6e9ecsize=193064date=2023-04-25T20:32:43
+shell/Taileo/surfacetable.txtf132ad553a131088b08cdbc8dcf3ef86size=414date=2020-10-30T02:07:16
+shell/Taileo/thumbnail.pngdd05a6a8711ea0e631ada0643081be45size=253407date=2023-04-26T02:02:17
 thumbnail.png401d1357c4b03eca8815ac56289a217csize=246716date=2023-03-18T01:17:51
