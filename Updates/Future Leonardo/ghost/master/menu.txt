@@ -1138,7 +1138,7 @@ Select.askhimself
 		"\0\s[0]\i[5]*You ask him how he is doing today. \n\n[half]\w8\w4\s[0]I'm fine. \w8\w4\s[19]Ready to take on the world.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
 		"\0\s[0]\i[5]*You ask him how he is doing today. \n\n[half]\w8\w4\s[58]E\w1e\w1e\w1e\w1e\w1e\w1e\w1e\w1e\w1e\w1e\w1u\w1u\w1u\w1u\w1u\w1u\w1u\w1g\w1h\w1h\w1h\w1h\w1h\w1?\w8\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
 		"\0\s[0]\i[5]*You ask him how he is doing today. \n\n[half]\w8\w4\s[28]Eh.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
-		"\0\s[0]\i[5]*You ask him how he is doing today. \n\n[half]\w8\w4\s[23]You worried about me? \w8\w4\s[20]Cute, \w3cute. \w8\w4\s[19]As you can see, I'm still in one piece. \w8\w3\s[20]So worry not.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
+		"\0\s[0]\i[5]*You ask him how he is doing today. \n\n[half]\w8\w4\s[23]You worried about me? \w8\w4\s[20]Cute, \w3cute. \w8\w4\s[19]As you can see, \w3I'm\nstill in one piece. \w8\w3\s[20]So worry not.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
 		"\0\s[0]\i[5]*You ask him how he is doing today. \n\n[half]\w8\w4\s[81]Fine\w3.\w3.\w3. \w8\w8\s[100]It's all fine.\w8\w4\n\n\_q\![*]\q[Ask again?,askyask]   \![*]\q[I'm done,CANCEL]\e"
 	}
 	else
@@ -2477,19 +2477,20 @@ Select.watchwrite//WRITING
 	watchleowrite = 1
 	lastTalk = ""
 	//"\0\s[0]\i[5]*You ask Leo if he wants to watch you play games. \n\n[half]\w8\w4\s[54]Ooh, what are we watching?\s[122]\e"
-	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are you going to draw?\e"
-	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 How about you draw me?\e"
-	"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Let's go!\s[122] \w8\w8\w8It's like reading comics at a painstakingly slow speed!\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Oh, sure!\s[122]\w8\w8 What are you going to write?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Sure thing!\s[122]\w8\w8\w8 Writing fanfiction, \w3h\w1u\w1u\w1u\w1u\w1h?\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Alright-y.\s[122] \w8\w8\w8As long as you won't have me do paperwork. \w8\w4Eh.\e"
+	"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Alright-y.\s[122] \w8\w8\w8Cafe shop AU time?\e"
 	if bigmood < 0
 	{
-		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll be calming\w3.\w3.\w3.\e"
-		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure thing. \s[122]\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Sure. \s[122]\w8\w8\w8Maybe it'll be calming\w3.\w3.\w3.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Sure thing. \s[122]\e"
 	}
 	if happycount > 300
 	{
-		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I like the way you draw.\e"
-		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 Mikey likes to say that art is a struggle\w3 - I wish you good luck.\e"
-		"\0\s[0]\i[5]*You ask Leo if he wants to watch you draw. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I'm not an art guy, \w3but like your art.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Oh, yes! \s[122]\w8\w8\w8I like your writing style.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 Watching you type is really calming.\e"
+		"\0\s[0]\i[5]*You ask Leo if he wants to watch you write. \n\n[half]\w8\w4\s[0]Sure!\s[122]\w8\w8\w8 I'm great at fanfiction myself, \w3maybe I'll show you some of it later if you're interested.\e"
 	}
 }
 

@@ -1376,7 +1376,7 @@ raphreveal2
 	
 	"\0\s[87]\i[5]*He looks distressed.\s[87]\e"
 	{
-		"\![enter,passivemode]\0\s[87]D\w1o\w1 \w1y\w1o\w1u\w5.\w5.\w5. \w8\w8\w2D\w1o\w1 \w1y\w1o\w1u\w1 \w1w\w1a\w1n\w1t\w1 \w1t\w1o\w1 \w1k\w1n\w1o\w1w\w1 \w1w\w1h\w1a\w1t\w1 \w1h\w1a\w1p\w1p\w1e\w1n\w1n\w1e\w1d\w1 \w1t\w1o \w1R\w1a\w1p\w1h\w1?\w5.\w5.\w5.\n\n"
+		"\![enter,passivemode]\0\s[87]D\w1o\w1 \w1y\w1o\w1u\w5.\w5.\w5. \w8\w8\w2D\w1o\w1 \w1y\w1o\w1u\w1 \w1w\w1a\w1n\w1t\w1 \w1t\w1o\w1 \w1k\w1n\w1o\w1w\w1 \w1w\w1h\w1a\w1t\w1 \w1h\w1a\w1p\w1p\w1e\w1n\w1e\w1d\w1 \w1t\w1o \w1R\w1a\w1p\w1h\w1?\w5.\w5.\w5.\n\n"
 		--
 		"\![*]\q[Yes,raphreveal3]\n/
 		\![*]\q[No,raphnono]\e:chain=end"
@@ -1459,7 +1459,7 @@ donreveal2
 	
 	"\0\s[89]\i[5]*He looks distressed.\s[89]\e"
 	{
-		"\![enter,passivemode]\0\s[87]D\w1o\w1 \w1y\w1o\w1u\w5.\w5.\w5. \w8\w8\w2D\w1o\w1 \w1y\w1o\w1u\w1 \w1w\w1a\w1n\w1t\w1 \w1t\w1o\w1 \w1k\w1n\w1o\w1w\w1 \w1w\w1h\w1a\w1t\w1 \w1h\w1a\w1p\w1p\w1e\w1n\w1n\w1e\w1d\w1 \w1t\w1o \w1D\w1o\w1n\w1n\w1i\w1e\w1?\w5.\w5.\w5.\n\n"
+		"\![enter,passivemode]\0\s[87]D\w1o\w1 \w1y\w1o\w1u\w5.\w5.\w5. \w8\w8\w2D\w1o\w1 \w1y\w1o\w1u\w1 \w1w\w1a\w1n\w1t\w1 \w1t\w1o\w1 \w1k\w1n\w1o\w1w\w1 \w1w\w1h\w1a\w1t\w1 \w1h\w1a\w1p\w1p\w1e\w1n\w1e\w1d\w1 \w1t\w1o \w1D\w1o\w1n\w1n\w1i\w1e\w1?\w5.\w5.\w5.\n\n"
 		--
 		"\![*]\q[Yes,donreveal3]\n/
 		\![*]\q[No,donnono]\e:chain=end"
@@ -1539,7 +1539,7 @@ splinterreveal2
 	
 	"\0\s[89]\i[5]*He looks to be deep in thought.\s[89]\e"
 	{
-		"\![enter,passivemode]\0\s[87]D\w1o\w1 \w1y\w1o\w1u\w5.\w5.\w5. \w8\w8\w2D\w1o\w1 \w1y\w1o\w1u\w1 \w1w\w1a\w1n\w1t\w1 \w1t\w1o\w1 \w1k\w1n\w1o\w1w\w1 \w1w\w1h\w1a\w1t\w1 \w1h\w1a\w1p\w1p\w1e\w1n\w1n\w1e\w1d\w1 \w1t\w1o \w1d\w1a\w1d?\w5.\w5.\w5.\n\n"
+		"\![enter,passivemode]\0\s[87]D\w1o\w1 \w1y\w1o\w1u\w5.\w5.\w5. \w8\w8\w2D\w1o\w1 \w1y\w1o\w1u\w1 \w1w\w1a\w1n\w1t\w1 \w1t\w1o\w1 \w1k\w1n\w1o\w1w\w1 \w1w\w1h\w1a\w1t\w1 \w1h\w1a\w1p\w1p\w1e\w1n\w1e\w1d\w1 \w1t\w1o \w1d\w1a\w1d?\w5.\w5.\w5.\n\n"
 		--
 		"\![*]\q[Yes,splinterreveal3]\n/
 		\![*]\q[No,splinternono]\e:chain=end"

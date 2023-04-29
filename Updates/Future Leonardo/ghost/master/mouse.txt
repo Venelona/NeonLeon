@@ -59,7 +59,7 @@ MouseMoveSakura
 					\w5\_q\![*]\q[Let me pet you,choicepet1]\n/
 					\![*]\q[Nothing?..,choicepet2]\e"
 				}
-				elseif petadd <= 20 && bigmood >= -60 && raphchain == 0 && donchain == 0 && splinterchain == 0
+				elseif petadd <= 20 && bigmood >= -60 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 				{
 					petadd += 1
 					happycount += 1
@@ -103,14 +103,14 @@ MouseMoveSakura
 					
 					
 				}
-				elseif petadd == 68 && bigmood >= -60 && raphchain == 0 && donchain == 0 && splinterchain == 0
+				elseif petadd == 68 && bigmood >= -60 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 				{
 					petadd += 1
 					happycount += 1
 					bigmood += 69
 					"\0\s[28]Nice.\e"
 				}
-				elseif petadd > 20 && petadd <= 100 && bigmood >= -60 && raphchain == 0 && donchain == 0 && splinterchain == 0
+				elseif petadd > 20 && petadd <= 100 && bigmood >= -60 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 				{
 					petadd += 1
 					happycount += 1
@@ -172,7 +172,7 @@ MouseMoveSakura
 					
 					
 				}
-				elseif bigmood < -60 && raphchain == 0 && donchain == 0 && splinterchain == 0
+				elseif bigmood < -60 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 					{
 						petadd += 1
 						//bigmood -=1
@@ -186,7 +186,7 @@ MouseMoveSakura
 						"\0\s[2]\i[5]*He seems too irritated for pets.\s[2]\e"
 					}
 				//distraught (work on)
-				elseif bigmood < -200 && raphchain == 0 && donchain == 0 && splinterchain == 0
+				elseif bigmood < -200 && raphchain == 0 && donchain == 0 && splinterchain == 0 && leowatch == 0
 					{
 						petadd += 1
 						//bigmood -=1
@@ -199,9 +199,9 @@ MouseMoveSakura
 						"\0\s[2]\i[5]*He seems too sad for pets.\s[2]\e"
 					}
 				
-				elseif raphchain > 0 || donchain > 0 || splinterchain > 0
+				elseif raphchain > 0 && leowatch == 0 || donchain > 0 && leowatch == 0 || splinterchain > 0 && leowatch == 0
 				{
-					if raphchain == 1 || donchain == 1 || splinterchain == 1
+					if raphchain == 1 && leowatch == 0 || donchain == 1 && leowatch == 0 || splinterchain == 1 && leowatch == 0
 					{
 						petadd += 1
 						happycount += 1
@@ -210,7 +210,7 @@ MouseMoveSakura
 						"\0\s[84]\i[5]*He is too distracted for pets.\s[84]\e"
 						"\0\s[84]\i[5]*He's thinking too deeply to notice your pets.\s[84]\e"
 					}
-					if raphchain == 2 || donchain == 2 || splinterchain == 2
+					if raphchain == 2 && leowatch == 0 || donchain == 2 && leowatch == 0 || splinterchain == 2 && leowatch == 0
 					{
 						petadd += 1
 						happycount += 1
@@ -221,7 +221,7 @@ MouseMoveSakura
 						"\0\s[87]\i[5]*He's thinking too deeply to notice your pets.\s[87]\e"
 						"\0\s[87]\i[5]*You try to cheer him up, \w4but he doesn't notice.\s[87]\e"
 					}
-					if raphchain == 3 || donchain == 3 || splinterchain == 3
+					if raphchain == 3 && leowatch == 0 || donchain == 3 && leowatch == 0 || splinterchain == 3 && leowatch == 0
 					{
 						petadd += 1
 						happycount += 1
